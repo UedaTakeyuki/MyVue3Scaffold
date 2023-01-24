@@ -1,1 +1,3 @@
 2022.12.17 created from scratch with refering vuetify-navg
+
+2023.01.24 add rollup-plugin-visualizer, refer https://zenn.dev/manalink_dev/articles/vite-bundle-analyzer

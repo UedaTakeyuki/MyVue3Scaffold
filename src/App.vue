@@ -1,16 +1,12 @@
 <script setup>
-import Navbar from '/src/components/Navbar.vue'
+import {Navbar} from 'vuetify-nav'
 const links = [
       { icon: 'home', text: 'Home', route: '/'},
-      { icon: 'face', text: 'About', route: '/about'},
     ]
 </script>
 
 <template>
   <v-app>
-    <Navbar titleStr="Demo App" :links="links" />
-    <v-main>
-      <router-view></router-view>
-    </v-main>
+    <Navbar :links="links"/>
   </v-app>
 </template>
