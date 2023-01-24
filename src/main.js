@@ -1,5 +1,6 @@
 import { createApp } from 'vue/dist/vue.esm-bundler'
-import './style.css'
+//import { createApp } from "https://unpkg.com/vue@3.2.31/dist/vue.esm-browser.js";
+//import './style.css'
 import App from './App.vue'
 import Home from '/src/views/Home.vue'
 import About from '/src/views/About.vue'
