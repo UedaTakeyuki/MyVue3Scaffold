@@ -1,0 +1,3227 @@
+-----------------------------
+Rollup File Analysis
+-----------------------------
+bundle size:    1.212 MB
+original size:  2.01 MB
+code reduction: 39.69 %
+module count:   312
+
+█████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js
+bundle space:    19.38 %
+rendered size:   235.03 KB
+original size:   315.1 KB
+code reduction:  25.41 %
+dependents:      1
+  - /node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js
+
+██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/@vue/compiler-core/dist/compiler-core.esm-bundler.js
+bundle space:    13.4 %
+rendered size:   162.526 KB
+original size:   199.172 KB
+code reduction:  18.4 %
+dependents:      1
+  - /node_modules/@vue/compiler-dom/dist/compiler-dom.esm-bundler.js
+
+████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vue-router/dist/vue-router.mjs
+bundle space:    8.46 %
+rendered size:   102.523 KB
+original size:   149.362 KB
+code reduction:  31.36 %
+dependents:      1
+  - /src/main.js
+
+██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js
+bundle space:    4.45 %
+rendered size:   53.972 KB
+original size:   60.266 KB
+code reduction:  10.44 %
+dependents:      1
+  - /node_modules/vue/dist/vue.esm-bundler.js
+
+█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify-nav/dist/vuetify-nav.es.js
+bundle space:    3.35 %
+rendered size:   40.574 KB
+original size:   40.039 KB
+code reduction:  0 %
+dependents:      1
+  - /src/App.vue
+
+█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/@vue/reactivity/dist/reactivity.esm-bundler.js
+bundle space:    2.89 %
+rendered size:   35.065 KB
+original size:   42.393 KB
+code reduction:  17.29 %
+dependents:      1
+  - /node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/@vue/compiler-dom/dist/compiler-dom.esm-bundler.js
+bundle space:    1.22 %
+rendered size:   14.807 KB
+original size:   20.541 KB
+code reduction:  27.91 %
+dependents:      1
+  - /node_modules/vue/dist/vue.esm-bundler.js
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VCombobox/VCombobox.mjs
+bundle space:    1.09 %
+rendered size:   13.2 KB
+original size:   14.577 KB
+code reduction:  9.45 %
+dependents:      0
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VSlideGroup/VSlideGroup.mjs
+bundle space:    1.02 %
+rendered size:   12.414 KB
+original size:   13.315 KB
+code reduction:  6.77 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VSlideGroup/VSlideGroupItem.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VOverlay/locationStrategies.mjs
+bundle space:    1.02 %
+rendered size:   12.389 KB
+original size:   12.898 KB
+code reduction:  3.95 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VOverlay/VOverlay.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/@vue/shared/dist/shared.esm-bundler.js
+bundle space:    1 %
+rendered size:   12.084 KB
+original size:   23.36 KB
+code reduction:  48.27 %
+dependents:      6
+  - /node_modules/@vue/reactivity/dist/reactivity.esm-bundler.js
+  - /node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js
+  - /node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js
+  - /node_modules/@vue/compiler-core/dist/compiler-core.esm-bundler.js
+  - /node_modules/@vue/compiler-dom/dist/compiler-dom.esm-bundler.js
+  - /node_modules/vue/dist/vue.esm-bundler.js
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/util/helpers.mjs
+bundle space:    0.88 %
+rendered size:   10.644 KB
+original size:   15.911 KB
+code reduction:  33.1 %
+dependents:      5
+  - /node_modules/vuetify/lib/util/anchor.mjs
+  - /node_modules/vuetify/lib/util/color/transformSRGB.mjs
+  - /node_modules/vuetify/lib/util/colorUtils.mjs
+  - /node_modules/vuetify/lib/util/getCurrentInstance.mjs
+  - /node_modules/vuetify/lib/util/defineComponent.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VAutocomplete/VAutocomplete.mjs
+bundle space:    0.85 %
+rendered size:   10.316 KB
+original size:   11.63 KB
+code reduction:  11.3 %
+dependents:      0
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VPagination/VPagination.mjs
+bundle space:    0.84 %
+rendered size:   10.241 KB
+original size:   11.574 KB
+code reduction:  11.52 %
+dependents:      0
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/composables/theme.mjs
+bundle space:    0.8 %
+rendered size:   9.736 KB
+original size:   10.092 KB
+code reduction:  3.53 %
+dependents:      36
+  - /node_modules/vuetify/lib/framework.mjs
+  - /node_modules/vuetify/lib/components/VApp/VApp.mjs
+  - /node_modules/vuetify/lib/components/VToolbar/VToolbar.mjs
+  - /node_modules/vuetify/lib/components/VBtnGroup/VBtnGroup.mjs
+  - /node_modules/vuetify/lib/components/VIcon/VIcon.mjs
+  - /node_modules/vuetify/lib/components/VProgressCircular/VProgressCircular.mjs
+  - /node_modules/vuetify/lib/components/VProgressLinear/VProgressLinear.mjs
+  - /node_modules/vuetify/lib/components/VBtn/VBtn.mjs
+  - /node_modules/vuetify/lib/components/VAlert/VAlert.mjs
+  - /node_modules/vuetify/lib/components/VLabel/VLabel.mjs
+  - /node_modules/vuetify/lib/components/VField/VField.mjs
+  - /node_modules/vuetify/lib/components/VSelectionControlGroup/VSelectionControlGroup.mjs
+  - /node_modules/vuetify/lib/components/VChipGroup/VChipGroup.mjs
+  - /node_modules/vuetify/lib/components/VChip/VChip.mjs
+  - /node_modules/vuetify/lib/components/VDivider/VDivider.mjs
+  - /node_modules/vuetify/lib/components/VList/VListItem.mjs
+  - /node_modules/vuetify/lib/components/VList/VList.mjs
+  - /node_modules/vuetify/lib/components/VOverlay/VOverlay.mjs
+  - /node_modules/vuetify/lib/components/VBadge/VBadge.mjs
+  - /node_modules/vuetify/lib/components/VBanner/VBanner.mjs
+  - /node_modules/vuetify/lib/components/VBottomNavigation/VBottomNavigation.mjs
+  - /node_modules/vuetify/lib/components/VCard/VCard.mjs
+  - /node_modules/vuetify/lib/components/VWindow/VWindow.mjs
+  - /node_modules/vuetify/lib/components/VSheet/VSheet.mjs
+  - /node_modules/vuetify/lib/components/VColorPicker/VColorPicker.mjs
+  - /node_modules/vuetify/lib/components/VExpansionPanel/VExpansionPanels.mjs
+  - /node_modules/vuetify/lib/components/VFooter/VFooter.mjs
+  - /node_modules/vuetify/lib/components/VItemGroup/VItemGroup.mjs
+  - /node_modules/vuetify/lib/components/VNavigationDrawer/VNavigationDrawer.mjs
+  - /node_modules/vuetify/lib/components/VPagination/VPagination.mjs
+  - /node_modules/vuetify/lib/components/VRating/VRating.mjs
+  - /node_modules/vuetify/lib/components/VSystemBar/VSystemBar.mjs
+  - /node_modules/vuetify/lib/components/VTabs/VTab.mjs
+  - /node_modules/vuetify/lib/components/VTable/VTable.mjs
+  - /node_modules/vuetify/lib/components/VThemeProvider/VThemeProvider.mjs
+  - /node_modules/vuetify/lib/components/VTimeline/VTimeline.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/directives/ripple/index.mjs
+bundle space:    0.78 %
+rendered size:   9.487 KB
+original size:   9.617 KB
+code reduction:  1.35 %
+dependents:      8
+  - /node_modules/vuetify/lib/components/VBtn/VBtn.mjs
+  - /node_modules/vuetify/lib/components/VSelectionControl/VSelectionControl.mjs
+  - /node_modules/vuetify/lib/components/VChip/VChip.mjs
+  - /node_modules/vuetify/lib/components/VList/VListItem.mjs
+  - /node_modules/vuetify/lib/components/VCard/VCard.mjs
+  - /node_modules/vuetify/lib/components/VSlider/VSliderThumb.mjs
+  - /node_modules/vuetify/lib/components/VExpansionPanel/VExpansionPanelTitle.mjs
+  - /node_modules/vuetify/lib/directives/index.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/composables/layout.mjs
+bundle space:    0.74 %
+rendered size:   8.915 KB
+original size:   9.312 KB
+code reduction:  4.26 %
+dependents:      9
+  - /node_modules/vuetify/lib/components/VApp/VApp.mjs
+  - /node_modules/vuetify/lib/components/VAppBar/VAppBar.mjs
+  - /node_modules/vuetify/lib/components/VBottomNavigation/VBottomNavigation.mjs
+  - /node_modules/vuetify/lib/components/VFooter/VFooter.mjs
+  - /node_modules/vuetify/lib/components/VLayout/VLayout.mjs
+  - /node_modules/vuetify/lib/components/VLayout/VLayoutItem.mjs
+  - /node_modules/vuetify/lib/components/VMain/VMain.mjs
+  - /node_modules/vuetify/lib/components/VNavigationDrawer/VNavigationDrawer.mjs
+  - /node_modules/vuetify/lib/components/VSystemBar/VSystemBar.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VTextarea/VTextarea.mjs
+bundle space:    0.72 %
+rendered size:   8.671 KB
+original size:   9.786 KB
+code reduction:  11.39 %
+dependents:      0
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VSelect/VSelect.mjs
+bundle space:    0.71 %
+rendered size:   8.549 KB
+original size:   9.867 KB
+code reduction:  13.36 %
+dependents:      2
+  - /node_modules/vuetify/lib/components/VAutocomplete/VAutocomplete.mjs
+  - /node_modules/vuetify/lib/components/VCombobox/VCombobox.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VRangeSlider/VRangeSlider.mjs
+bundle space:    0.69 %
+rendered size:   8.338 KB
+original size:   9.167 KB
+code reduction:  9.04 %
+dependents:      0
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VField/VField.mjs
+bundle space:    0.68 %
+rendered size:   8.233 KB
+original size:   9.35 KB
+code reduction:  11.95 %
+dependents:      3
+  - /node_modules/vuetify/lib/components/VTextField/VTextField.mjs
+  - /node_modules/vuetify/lib/components/VFileInput/VFileInput.mjs
+  - /node_modules/vuetify/lib/components/VTextarea/VTextarea.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VSlider/slider.mjs
+bundle space:    0.67 %
+rendered size:   8.134 KB
+original size:   8.543 KB
+code reduction:  4.79 %
+dependents:      4
+  - /node_modules/vuetify/lib/components/VSlider/VSliderThumb.mjs
+  - /node_modules/vuetify/lib/components/VSlider/VSliderTrack.mjs
+  - /node_modules/vuetify/lib/components/VSlider/VSlider.mjs
+  - /node_modules/vuetify/lib/components/VRangeSlider/VRangeSlider.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VImg/VImg.mjs
+bundle space:    0.64 %
+rendered size:   7.727 KB
+original size:   8.416 KB
+code reduction:  8.19 %
+dependents:      0
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VList/VListItem.mjs
+bundle space:    0.63 %
+rendered size:   7.585 KB
+original size:   9.188 KB
+code reduction:  17.45 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VList/VListChildren.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VRating/VRating.mjs
+bundle space:    0.6 %
+rendered size:   7.31 KB
+original size:   8.189 KB
+code reduction:  10.73 %
+dependents:      0
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VNavigationDrawer/VNavigationDrawer.mjs
+bundle space:    0.59 %
+rendered size:   7.174 KB
+original size:   8.574 KB
+code reduction:  16.33 %
+dependents:      0
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VOverlay/VOverlay.mjs
+bundle space:    0.58 %
+rendered size:   7.067 KB
+original size:   8.884 KB
+code reduction:  20.45 %
+dependents:      4
+  - /node_modules/vuetify/lib/components/VMenu/VMenu.mjs
+  - /node_modules/vuetify/lib/components/VDialog/VDialog.mjs
+  - /node_modules/vuetify/lib/components/VSnackbar/VSnackbar.mjs
+  - /node_modules/vuetify/lib/components/VTooltip/VTooltip.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VOverlay/useActivator.mjs
+bundle space:    0.58 %
+rendered size:   6.992 KB
+original size:   7.416 KB
+code reduction:  5.72 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VOverlay/VOverlay.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VTextField/VTextField.mjs
+bundle space:    0.57 %
+rendered size:   6.913 KB
+original size:   7.951 KB
+code reduction:  13.05 %
+dependents:      3
+  - /node_modules/vuetify/lib/components/VSelect/VSelect.mjs
+  - /node_modules/vuetify/lib/components/VAutocomplete/VAutocomplete.mjs
+  - /node_modules/vuetify/lib/components/VCombobox/VCombobox.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VFileInput/VFileInput.mjs
+bundle space:    0.57 %
+rendered size:   6.852 KB
+original size:   7.812 KB
+code reduction:  12.29 %
+dependents:      0
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/util/colors.mjs
+bundle space:    0.54 %
+rendered size:   6.605 KB
+original size:   6.641 KB
+code reduction:  0.54 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VColorPicker/VColorPickerSwatches.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VChip/VChip.mjs
+bundle space:    0.53 %
+rendered size:   6.367 KB
+original size:   8.017 KB
+code reduction:  20.58 %
+dependents:      0
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/composables/group.mjs
+bundle space:    0.52 %
+rendered size:   6.26 KB
+original size:   6.638 KB
+code reduction:  5.69 %
+dependents:      14
+  - /node_modules/vuetify/lib/components/VBtnToggle/VBtnToggle.mjs
+  - /node_modules/vuetify/lib/components/VBtn/VBtn.mjs
+  - /node_modules/vuetify/lib/components/VChipGroup/VChipGroup.mjs
+  - /node_modules/vuetify/lib/components/VChip/VChip.mjs
+  - /node_modules/vuetify/lib/components/VBottomNavigation/VBottomNavigation.mjs
+  - /node_modules/vuetify/lib/components/VWindow/VWindow.mjs
+  - /node_modules/vuetify/lib/components/VWindow/VWindowItem.mjs
+  - /node_modules/vuetify/lib/components/VExpansionPanel/VExpansionPanels.mjs
+  - /node_modules/vuetify/lib/components/VExpansionPanel/VExpansionPanel.mjs
+  - /node_modules/vuetify/lib/components/VItemGroup/VItemGroup.mjs
+  - /node_modules/vuetify/lib/components/VItemGroup/VItem.mjs
+  - /node_modules/vuetify/lib/components/VSlideGroup/VSlideGroup.mjs
+  - /node_modules/vuetify/lib/components/VSlideGroup/VSlideGroupItem.mjs
+  - /node_modules/vuetify/lib/components/VTabs/VTab.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VBtn/VBtn.mjs
+bundle space:    0.49 %
+rendered size:   5.99 KB
+original size:   7.878 KB
+code reduction:  23.97 %
+dependents:      0
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/composables/nested/nested.mjs
+bundle space:    0.49 %
+rendered size:   5.971 KB
+original size:   6.53 KB
+code reduction:  8.56 %
+dependents:      3
+  - /node_modules/vuetify/lib/components/VList/VListGroup.mjs
+  - /node_modules/vuetify/lib/components/VList/VListItem.mjs
+  - /node_modules/vuetify/lib/components/VList/VList.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VList/VList.mjs
+bundle space:    0.48 %
+rendered size:   5.826 KB
+original size:   7.153 KB
+code reduction:  18.55 %
+dependents:      0
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VWindow/VWindow.mjs
+bundle space:    0.44 %
+rendered size:   5.32 KB
+original size:   6.089 KB
+code reduction:  12.63 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VWindow/VWindowItem.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VColorPicker/VColorPickerCanvas.mjs
+bundle space:    0.44 %
+rendered size:   5.287 KB
+original size:   5.621 KB
+code reduction:  5.94 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VColorPicker/VColorPicker.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VProgressLinear/VProgressLinear.mjs
+bundle space:    0.43 %
+rendered size:   5.228 KB
+original size:   6.039 KB
+code reduction:  13.43 %
+dependents:      0
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VSelectionControl/VSelectionControl.mjs
+bundle space:    0.43 %
+rendered size:   5.207 KB
+original size:   6.221 KB
+code reduction:  16.3 %
+dependents:      4
+  - /node_modules/vuetify/lib/components/VCheckbox/VCheckboxBtn.mjs
+  - /node_modules/vuetify/lib/components/VRadio/VRadio.mjs
+  - /node_modules/vuetify/lib/components/VRadioGroup/VRadioGroup.mjs
+  - /node_modules/vuetify/lib/components/VSwitch/VSwitch.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VAlert/VAlert.mjs
+bundle space:    0.41 %
+rendered size:   5.016 KB
+original size:   6.461 KB
+code reduction:  22.36 %
+dependents:      0
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VToolbar/VToolbar.mjs
+bundle space:    0.41 %
+rendered size:   4.971 KB
+original size:   6.051 KB
+code reduction:  17.85 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VAppBar/VAppBar.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VNavigationDrawer/touch.mjs
+bundle space:    0.41 %
+rendered size:   4.946 KB
+original size:   5.125 KB
+code reduction:  3.49 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VNavigationDrawer/VNavigationDrawer.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VCard/VCard.mjs
+bundle space:    0.4 %
+rendered size:   4.795 KB
+original size:   6.508 KB
+code reduction:  26.32 %
+dependents:      0
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/composables/nested/selectStrategies.mjs
+bundle space:    0.39 %
+rendered size:   4.774 KB
+original size:   4.855 KB
+code reduction:  1.67 %
+dependents:      1
+  - /node_modules/vuetify/lib/composables/nested/nested.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/util/colorUtils.mjs
+bundle space:    0.39 %
+rendered size:   4.74 KB
+original size:   6.123 KB
+code reduction:  22.59 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VColorPicker/util/index.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VSlider/VSliderThumb.mjs
+bundle space:    0.38 %
+rendered size:   4.616 KB
+original size:   5.332 KB
+code reduction:  13.43 %
+dependents:      2
+  - /node_modules/vuetify/lib/components/VSlider/VSlider.mjs
+  - /node_modules/vuetify/lib/components/VRangeSlider/VRangeSlider.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/transitions/dialog-transition.mjs
+bundle space:    0.37 %
+rendered size:   4.464 KB
+original size:   4.81 KB
+code reduction:  7.19 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/transitions/index.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/composables/validation.mjs
+bundle space:    0.36 %
+rendered size:   4.326 KB
+original size:   4.781 KB
+code reduction:  9.52 %
+dependents:      2
+  - /node_modules/vuetify/lib/components/VInput/VInput.mjs
+  - /node_modules/vuetify/lib/components/VValidation/VValidation.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VOverlay/scrollStrategies.mjs
+bundle space:    0.36 %
+rendered size:   4.319 KB
+original size:   4.631 KB
+code reduction:  6.74 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VOverlay/VOverlay.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VSlider/VSliderTrack.mjs
+bundle space:    0.32 %
+rendered size:   3.902 KB
+original size:   4.382 KB
+code reduction:  10.95 %
+dependents:      2
+  - /node_modules/vuetify/lib/components/VSlider/VSlider.mjs
+  - /node_modules/vuetify/lib/components/VRangeSlider/VRangeSlider.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VTabs/VTab.mjs
+bundle space:    0.32 %
+rendered size:   3.866 KB
+original size:   4.659 KB
+code reduction:  17.02 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VTabs/VTabs.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VProgressCircular/VProgressCircular.mjs
+bundle space:    0.31 %
+rendered size:   3.815 KB
+original size:   4.569 KB
+code reduction:  16.5 %
+dependents:      0
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VSlider/VSlider.mjs
+bundle space:    0.31 %
+rendered size:   3.811 KB
+original size:   4.577 KB
+code reduction:  16.74 %
+dependents:      0
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VSwitch/VSwitch.mjs
+bundle space:    0.31 %
+rendered size:   3.735 KB
+original size:   4.543 KB
+code reduction:  17.79 %
+dependents:      0
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VCarousel/VCarousel.mjs
+bundle space:    0.3 %
+rendered size:   3.695 KB
+original size:   4.464 KB
+code reduction:  17.23 %
+dependents:      0
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/directives/touch/index.mjs
+bundle space:    0.3 %
+rendered size:   3.596 KB
+original size:   3.69 KB
+code reduction:  2.55 %
+dependents:      3
+  - /node_modules/vuetify/lib/components/VWindow/VWindow.mjs
+  - /node_modules/vuetify/lib/components/VWindow/VWindowItem.mjs
+  - /node_modules/vuetify/lib/directives/index.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VDialog/VDialog.mjs
+bundle space:    0.3 %
+rendered size:   3.585 KB
+original size:   4.39 KB
+code reduction:  18.34 %
+dependents:      0
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VWindow/VWindowItem.mjs
+bundle space:    0.29 %
+rendered size:   3.531 KB
+original size:   4.261 KB
+code reduction:  17.13 %
+dependents:      0
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/composables/filter.mjs
+bundle space:    0.29 %
+rendered size:   3.521 KB
+original size:   3.752 KB
+code reduction:  6.16 %
+dependents:      2
+  - /node_modules/vuetify/lib/components/VAutocomplete/VAutocomplete.mjs
+  - /node_modules/vuetify/lib/components/VCombobox/VCombobox.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VColorPicker/VColorPicker.mjs
+bundle space:    0.29 %
+rendered size:   3.517 KB
+original size:   4.468 KB
+code reduction:  21.28 %
+dependents:      0
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VColorPicker/util/index.mjs
+bundle space:    0.29 %
+rendered size:   3.47 KB
+original size:   3.914 KB
+code reduction:  11.34 %
+dependents:      4
+  - /node_modules/vuetify/lib/components/VColorPicker/VColorPickerEdit.mjs
+  - /node_modules/vuetify/lib/components/VColorPicker/VColorPickerPreview.mjs
+  - /node_modules/vuetify/lib/components/VColorPicker/VColorPickerSwatches.mjs
+  - /node_modules/vuetify/lib/components/VColorPicker/VColorPicker.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/composables/display.mjs
+bundle space:    0.29 %
+rendered size:   3.458 KB
+original size:   3.713 KB
+code reduction:  6.87 %
+dependents:      4
+  - /node_modules/vuetify/lib/framework.mjs
+  - /node_modules/vuetify/lib/composables/hydration.mjs
+  - /node_modules/vuetify/lib/components/VBanner/VBanner.mjs
+  - /node_modules/vuetify/lib/components/VNavigationDrawer/VNavigationDrawer.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/directives/click-outside/index.mjs
+bundle space:    0.28 %
+rendered size:   3.445 KB
+original size:   3.569 KB
+code reduction:  3.47 %
+dependents:      2
+  - /node_modules/vuetify/lib/components/VOverlay/VOverlay.mjs
+  - /node_modules/vuetify/lib/directives/index.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VInput/VInput.mjs
+bundle space:    0.28 %
+rendered size:   3.418 KB
+original size:   4.125 KB
+code reduction:  17.14 %
+dependents:      8
+  - /node_modules/vuetify/lib/components/VTextField/VTextField.mjs
+  - /node_modules/vuetify/lib/components/VCheckbox/VCheckbox.mjs
+  - /node_modules/vuetify/lib/components/VSlider/VSlider.mjs
+  - /node_modules/vuetify/lib/components/VFileInput/VFileInput.mjs
+  - /node_modules/vuetify/lib/components/VRadioGroup/VRadioGroup.mjs
+  - /node_modules/vuetify/lib/components/VRangeSlider/VRangeSlider.mjs
+  - /node_modules/vuetify/lib/components/VSwitch/VSwitch.mjs
+  - /node_modules/vuetify/lib/components/VTextarea/VTextarea.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/util/color/APCA.mjs
+bundle space:    0.28 %
+rendered size:   3.39 KB
+original size:   3.431 KB
+code reduction:  1.19 %
+dependents:      1
+  - /node_modules/vuetify/lib/composables/theme.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VList/VListChildren.mjs
+bundle space:    0.27 %
+rendered size:   3.273 KB
+original size:   3.801 KB
+code reduction:  13.89 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VList/VList.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VGrid/VCol.mjs
+bundle space:    0.27 %
+rendered size:   3.269 KB
+original size:   3.513 KB
+code reduction:  6.95 %
+dependents:      0
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VSnackbar/VSnackbar.mjs
+bundle space:    0.27 %
+rendered size:   3.237 KB
+original size:   4.352 KB
+code reduction:  25.62 %
+dependents:      0
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/composables/touch.mjs
+bundle space:    0.26 %
+rendered size:   3.196 KB
+original size:   3.293 KB
+code reduction:  2.95 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VNavigationDrawer/touch.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VBadge/VBadge.mjs
+bundle space:    0.26 %
+rendered size:   3.19 KB
+original size:   4.167 KB
+code reduction:  23.45 %
+dependents:      0
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VGrid/VRow.mjs
+bundle space:    0.26 %
+rendered size:   3.138 KB
+original size:   3.4 KB
+code reduction:  7.71 %
+dependents:      0
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VExpansionPanel/VExpansionPanel.mjs
+bundle space:    0.26 %
+rendered size:   3.117 KB
+original size:   4.027 KB
+code reduction:  22.6 %
+dependents:      0
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/composables/icons.mjs
+bundle space:    0.25 %
+rendered size:   3.059 KB
+original size:   3.456 KB
+code reduction:  11.49 %
+dependents:      29
+  - /node_modules/vuetify/lib/iconsets/mdi.mjs
+  - /node_modules/vuetify/lib/framework.mjs
+  - /node_modules/vuetify/lib/components/VIcon/VIcon.mjs
+  - /node_modules/vuetify/lib/components/VBtn/VBtn.mjs
+  - /node_modules/vuetify/lib/components/VAppBar/VAppBarNavIcon.mjs
+  - /node_modules/vuetify/lib/components/VAlert/VAlert.mjs
+  - /node_modules/vuetify/lib/components/VField/VField.mjs
+  - /node_modules/vuetify/lib/components/VInput/VInput.mjs
+  - /node_modules/vuetify/lib/components/VSelectionControlGroup/VSelectionControlGroup.mjs
+  - /node_modules/vuetify/lib/components/VCheckbox/VCheckboxBtn.mjs
+  - /node_modules/vuetify/lib/components/VAvatar/VAvatar.mjs
+  - /node_modules/vuetify/lib/components/VChip/VChip.mjs
+  - /node_modules/vuetify/lib/components/VList/VListGroup.mjs
+  - /node_modules/vuetify/lib/components/VList/VListItem.mjs
+  - /node_modules/vuetify/lib/components/VSelect/VSelect.mjs
+  - /node_modules/vuetify/lib/components/VBadge/VBadge.mjs
+  - /node_modules/vuetify/lib/components/VBanner/VBanner.mjs
+  - /node_modules/vuetify/lib/components/VBreadcrumbs/VBreadcrumbs.mjs
+  - /node_modules/vuetify/lib/components/VCard/VCardItem.mjs
+  - /node_modules/vuetify/lib/components/VCard/VCard.mjs
+  - /node_modules/vuetify/lib/components/VCarousel/VCarousel.mjs
+  - /node_modules/vuetify/lib/components/VExpansionPanel/VExpansionPanelTitle.mjs
+  - /node_modules/vuetify/lib/components/VPagination/VPagination.mjs
+  - /node_modules/vuetify/lib/components/VRadioGroup/VRadioGroup.mjs
+  - /node_modules/vuetify/lib/components/VRating/VRating.mjs
+  - /node_modules/vuetify/lib/components/VSlideGroup/VSlideGroup.mjs
+  - /node_modules/vuetify/lib/components/VTabs/VTab.mjs
+  - /node_modules/vuetify/lib/components/VTimeline/VTimelineDivider.mjs
+  - /node_modules/vuetify/lib/components/VTimeline/VTimelineItem.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/locale/adapters/vuetify.mjs
+bundle space:    0.24 %
+rendered size:   2.948 KB
+original size:   3.212 KB
+code reduction:  8.22 %
+dependents:      1
+  - /node_modules/vuetify/lib/composables/locale.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/composables/form.mjs
+bundle space:    0.24 %
+rendered size:   2.926 KB
+original size:   3.18 KB
+code reduction:  7.99 %
+dependents:      2
+  - /node_modules/vuetify/lib/composables/validation.mjs
+  - /node_modules/vuetify/lib/components/VForm/VForm.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VBottomNavigation/VBottomNavigation.mjs
+bundle space:    0.24 %
+rendered size:   2.913 KB
+original size:   4.02 KB
+code reduction:  27.54 %
+dependents:      0
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VList/VListGroup.mjs
+bundle space:    0.24 %
+rendered size:   2.89 KB
+original size:   3.633 KB
+code reduction:  20.45 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VList/VListChildren.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VBanner/VBanner.mjs
+bundle space:    0.24 %
+rendered size:   2.865 KB
+original size:   4.24 KB
+code reduction:  32.43 %
+dependents:      0
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/transitions/createTransition.mjs
+bundle space:    0.24 %
+rendered size:   2.855 KB
+original size:   3.034 KB
+code reduction:  5.9 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/transitions/index.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VParallax/VParallax.mjs
+bundle space:    0.23 %
+rendered size:   2.79 KB
+original size:   3.431 KB
+code reduction:  18.68 %
+dependents:      0
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VBreadcrumbs/VBreadcrumbs.mjs
+bundle space:    0.23 %
+rendered size:   2.748 KB
+original size:   3.765 KB
+code reduction:  27.01 %
+dependents:      0
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/util/console.mjs
+bundle space:    0.21 %
+rendered size:   2.564 KB
+original size:   3.381 KB
+code reduction:  24.16 %
+dependents:      2
+  - /node_modules/vuetify/lib/util/colorUtils.mjs
+  - /node_modules/vuetify/lib/util/defineComponent.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VCard/VCardItem.mjs
+bundle space:    0.21 %
+rendered size:   2.562 KB
+original size:   3.115 KB
+code reduction:  17.75 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VCard/VCard.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VMenu/VMenu.mjs
+bundle space:    0.21 %
+rendered size:   2.56 KB
+original size:   3.422 KB
+code reduction:  25.19 %
+dependents:      0
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/framework.mjs
+bundle space:    0.21 %
+rendered size:   2.512 KB
+original size:   3.111 KB
+code reduction:  19.25 %
+dependents:      1
+  - /src/main.js
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VTooltip/VTooltip.mjs
+bundle space:    0.21 %
+rendered size:   2.506 KB
+original size:   3.177 KB
+code reduction:  21.12 %
+dependents:      0
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/composables/router.mjs
+bundle space:    0.21 %
+rendered size:   2.503 KB
+original size:   2.98 KB
+code reduction:  16.01 %
+dependents:      8
+  - /node_modules/vuetify/lib/components/VBtn/VBtn.mjs
+  - /node_modules/vuetify/lib/components/VChip/VChip.mjs
+  - /node_modules/vuetify/lib/components/VList/VListItem.mjs
+  - /node_modules/vuetify/lib/components/VOverlay/VOverlay.mjs
+  - /node_modules/vuetify/lib/components/VBreadcrumbs/VBreadcrumbsItem.mjs
+  - /node_modules/vuetify/lib/components/VCard/VCard.mjs
+  - /node_modules/vuetify/lib/components/VNavigationDrawer/VNavigationDrawer.mjs
+  - /node_modules/vuetify/lib/components/VTabs/VTab.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VTabs/VTabs.mjs
+bundle space:    0.2 %
+rendered size:   2.443 KB
+original size:   3.244 KB
+code reduction:  24.69 %
+dependents:      0
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/util/defineComponent.mjs
+bundle space:    0.2 %
+rendered size:   2.435 KB
+original size:   3.029 KB
+code reduction:  19.61 %
+dependents:      1
+  - /node_modules/vuetify/lib/util/createSimpleFunctional.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VSelectionControlGroup/VSelectionControlGroup.mjs
+bundle space:    0.2 %
+rendered size:   2.385 KB
+original size:   3.066 KB
+code reduction:  22.21 %
+dependents:      2
+  - /node_modules/vuetify/lib/components/VSelectionControl/VSelectionControl.mjs
+  - /node_modules/vuetify/lib/components/VRadioGroup/VRadioGroup.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VColorPicker/VColorPickerEdit.mjs
+bundle space:    0.19 %
+rendered size:   2.335 KB
+original size:   2.708 KB
+code reduction:  13.77 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VColorPicker/VColorPicker.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VTimeline/VTimeline.mjs
+bundle space:    0.19 %
+rendered size:   2.334 KB
+original size:   2.944 KB
+code reduction:  20.72 %
+dependents:      0
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/composables/forwardRefs.mjs
+bundle space:    0.19 %
+rendered size:   2.274 KB
+original size:   2.322 KB
+code reduction:  2.07 %
+dependents:      11
+  - /node_modules/vuetify/lib/components/VTextField/VTextField.mjs
+  - /node_modules/vuetify/lib/components/VMenu/VMenu.mjs
+  - /node_modules/vuetify/lib/components/VSelect/VSelect.mjs
+  - /node_modules/vuetify/lib/components/VAutocomplete/VAutocomplete.mjs
+  - /node_modules/vuetify/lib/components/VCombobox/VCombobox.mjs
+  - /node_modules/vuetify/lib/components/VDialog/VDialog.mjs
+  - /node_modules/vuetify/lib/components/VFileInput/VFileInput.mjs
+  - /node_modules/vuetify/lib/components/VForm/VForm.mjs
+  - /node_modules/vuetify/lib/components/VSnackbar/VSnackbar.mjs
+  - /node_modules/vuetify/lib/components/VTextarea/VTextarea.mjs
+  - /node_modules/vuetify/lib/components/VTooltip/VTooltip.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VExpansionPanel/VExpansionPanelTitle.mjs
+bundle space:    0.19 %
+rendered size:   2.259 KB
+original size:   2.92 KB
+code reduction:  22.64 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VExpansionPanel/VExpansionPanel.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VRadioGroup/VRadioGroup.mjs
+bundle space:    0.18 %
+rendered size:   2.238 KB
+original size:   3.108 KB
+code reduction:  27.99 %
+dependents:      0
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VTimeline/VTimelineItem.mjs
+bundle space:    0.18 %
+rendered size:   2.21 KB
+original size:   2.967 KB
+code reduction:  25.51 %
+dependents:      0
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VTimeline/VTimelineDivider.mjs
+bundle space:    0.18 %
+rendered size:   2.131 KB
+original size:   2.843 KB
+code reduction:  25.04 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VTimeline/VTimelineItem.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/transitions/expand-transition.mjs
+bundle space:    0.17 %
+rendered size:   2.089 KB
+original size:   2.155 KB
+code reduction:  3.06 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/transitions/index.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/composables/proxiedModel.mjs
+bundle space:    0.17 %
+rendered size:   2.087 KB
+original size:   2.31 KB
+code reduction:  9.65 %
+dependents:      36
+  - /node_modules/vuetify/lib/locale/adapters/vuetify.mjs
+  - /node_modules/vuetify/lib/components/VAppBar/VAppBar.mjs
+  - /node_modules/vuetify/lib/composables/group.mjs
+  - /node_modules/vuetify/lib/components/VProgressLinear/VProgressLinear.mjs
+  - /node_modules/vuetify/lib/components/VAlert/VAlert.mjs
+  - /node_modules/vuetify/lib/composables/focus.mjs
+  - /node_modules/vuetify/lib/composables/form.mjs
+  - /node_modules/vuetify/lib/composables/validation.mjs
+  - /node_modules/vuetify/lib/components/VTextField/VTextField.mjs
+  - /node_modules/vuetify/lib/components/VSelectionControlGroup/VSelectionControlGroup.mjs
+  - /node_modules/vuetify/lib/components/VSelectionControl/VSelectionControl.mjs
+  - /node_modules/vuetify/lib/components/VCheckbox/VCheckboxBtn.mjs
+  - /node_modules/vuetify/lib/components/VChip/VChip.mjs
+  - /node_modules/vuetify/lib/composables/nested/nested.mjs
+  - /node_modules/vuetify/lib/components/VOverlay/VOverlay.mjs
+  - /node_modules/vuetify/lib/components/VMenu/VMenu.mjs
+  - /node_modules/vuetify/lib/components/VSelect/VSelect.mjs
+  - /node_modules/vuetify/lib/components/VAutocomplete/VAutocomplete.mjs
+  - /node_modules/vuetify/lib/components/VCarousel/VCarousel.mjs
+  - /node_modules/vuetify/lib/components/VSlider/VSlider.mjs
+  - /node_modules/vuetify/lib/components/VColorPicker/VColorPicker.mjs
+  - /node_modules/vuetify/lib/components/VCombobox/VCombobox.mjs
+  - /node_modules/vuetify/lib/components/VDialog/VDialog.mjs
+  - /node_modules/vuetify/lib/components/VFileInput/VFileInput.mjs
+  - /node_modules/vuetify/lib/components/VHover/VHover.mjs
+  - /node_modules/vuetify/lib/components/VLazy/VLazy.mjs
+  - /node_modules/vuetify/lib/components/VNavigationDrawer/VNavigationDrawer.mjs
+  - /node_modules/vuetify/lib/components/VPagination/VPagination.mjs
+  - /node_modules/vuetify/lib/components/VRadioGroup/VRadioGroup.mjs
+  - /node_modules/vuetify/lib/components/VRangeSlider/VRangeSlider.mjs
+  - /node_modules/vuetify/lib/components/VRating/VRating.mjs
+  - /node_modules/vuetify/lib/components/VSnackbar/VSnackbar.mjs
+  - /node_modules/vuetify/lib/components/VSwitch/VSwitch.mjs
+  - /node_modules/vuetify/lib/components/VTabs/VTabs.mjs
+  - /node_modules/vuetify/lib/components/VTextarea/VTextarea.mjs
+  - /node_modules/vuetify/lib/components/VTooltip/VTooltip.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VNavigationDrawer/sticky.mjs
+bundle space:    0.16 %
+rendered size:   1.973 KB
+original size:   2.142 KB
+code reduction:  7.89 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VNavigationDrawer/VNavigationDrawer.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VAppBar/VAppBar.mjs
+bundle space:    0.16 %
+rendered size:   1.937 KB
+original size:   2.543 KB
+code reduction:  23.83 %
+dependents:      0
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VColorPicker/VColorPickerPreview.mjs
+bundle space:    0.16 %
+rendered size:   1.917 KB
+original size:   2.284 KB
+code reduction:  16.07 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VColorPicker/VColorPicker.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VFooter/VFooter.mjs
+bundle space:    0.15 %
+rendered size:   1.822 KB
+original size:   2.725 KB
+code reduction:  33.14 %
+dependents:      0
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/composables/items.mjs
+bundle space:    0.15 %
+rendered size:   1.812 KB
+original size:   1.981 KB
+code reduction:  8.53 %
+dependents:      4
+  - /node_modules/vuetify/lib/components/VList/VList.mjs
+  - /node_modules/vuetify/lib/components/VSelect/VSelect.mjs
+  - /node_modules/vuetify/lib/components/VAutocomplete/VAutocomplete.mjs
+  - /node_modules/vuetify/lib/components/VCombobox/VCombobox.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/locale/en.mjs
+bundle space:    0.15 %
+rendered size:   1.809 KB
+original size:   1.845 KB
+code reduction:  1.95 %
+dependents:      2
+  - /node_modules/vuetify/lib/locale/adapters/vuetify.mjs
+  - /node_modules/vuetify/lib/locale/index.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VIcon/VIcon.mjs
+bundle space:    0.15 %
+rendered size:   1.78 KB
+original size:   2.433 KB
+code reduction:  26.84 %
+dependents:      0
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/composables/locale.mjs
+bundle space:    0.14 %
+rendered size:   1.692 KB
+original size:   2.007 KB
+code reduction:  15.7 %
+dependents:      19
+  - /node_modules/vuetify/lib/framework.mjs
+  - /node_modules/vuetify/lib/components/VApp/VApp.mjs
+  - /node_modules/vuetify/lib/components/VProgressLinear/VProgressLinear.mjs
+  - /node_modules/vuetify/lib/composables/location.mjs
+  - /node_modules/vuetify/lib/components/VAlert/VAlert.mjs
+  - /node_modules/vuetify/lib/components/VInput/InputIcon.mjs
+  - /node_modules/vuetify/lib/components/VOverlay/VOverlay.mjs
+  - /node_modules/vuetify/lib/components/VSelect/VSelect.mjs
+  - /node_modules/vuetify/lib/components/VAutocomplete/VAutocomplete.mjs
+  - /node_modules/vuetify/lib/components/VBadge/VBadge.mjs
+  - /node_modules/vuetify/lib/components/VWindow/VWindow.mjs
+  - /node_modules/vuetify/lib/components/VCarousel/VCarousel.mjs
+  - /node_modules/vuetify/lib/components/VSlider/slider.mjs
+  - /node_modules/vuetify/lib/components/VCombobox/VCombobox.mjs
+  - /node_modules/vuetify/lib/components/VFileInput/VFileInput.mjs
+  - /node_modules/vuetify/lib/components/VLocaleProvider/VLocaleProvider.mjs
+  - /node_modules/vuetify/lib/components/VPagination/VPagination.mjs
+  - /node_modules/vuetify/lib/components/VRating/VRating.mjs
+  - /node_modules/vuetify/lib/components/VSlideGroup/VSlideGroup.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VSlideGroup/helpers.mjs
+bundle space:    0.14 %
+rendered size:   1.672 KB
+original size:   1.73 KB
+code reduction:  3.35 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VSlideGroup/VSlideGroup.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/directives/intersect/index.mjs
+bundle space:    0.13 %
+rendered size:   1.599 KB
+original size:   1.708 KB
+code reduction:  6.38 %
+dependents:      5
+  - /node_modules/vuetify/lib/components/VImg/VImg.mjs
+  - /node_modules/vuetify/lib/components/VTextField/VTextField.mjs
+  - /node_modules/vuetify/lib/components/VLazy/VLazy.mjs
+  - /node_modules/vuetify/lib/components/VTextarea/VTextarea.mjs
+  - /node_modules/vuetify/lib/directives/index.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VColorPicker/VColorPickerSwatches.mjs
+bundle space:    0.13 %
+rendered size:   1.577 KB
+original size:   2.016 KB
+code reduction:  21.78 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VColorPicker/VColorPicker.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:             vite/modulepreload-polyfill
+bundle space:    0.13 %
+rendered size:   1.562 KB
+original size:   1.562 KB
+code reduction:  0 %
+dependents:      1
+  - /index.html
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/directives/mutate/index.mjs
+bundle space:    0.13 %
+rendered size:   1.558 KB
+original size:   1.593 KB
+code reduction:  2.2 %
+dependents:      1
+  - /node_modules/vuetify/lib/directives/index.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/composables/location.mjs
+bundle space:    0.13 %
+rendered size:   1.554 KB
+original size:   1.762 KB
+code reduction:  11.8 %
+dependents:      7
+  - /node_modules/vuetify/lib/components/VBtn/VBtn.mjs
+  - /node_modules/vuetify/lib/components/VAlert/VAlert.mjs
+  - /node_modules/vuetify/lib/components/VBadge/VBadge.mjs
+  - /node_modules/vuetify/lib/components/VBanner/VBanner.mjs
+  - /node_modules/vuetify/lib/components/VCard/VCard.mjs
+  - /node_modules/vuetify/lib/components/VSheet/VSheet.mjs
+  - /node_modules/vuetify/lib/components/VSnackbar/VSnackbar.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VBreadcrumbs/VBreadcrumbsItem.mjs
+bundle space:    0.13 %
+rendered size:   1.547 KB
+original size:   1.97 KB
+code reduction:  21.47 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VBreadcrumbs/VBreadcrumbs.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VCheckbox/VCheckboxBtn.mjs
+bundle space:    0.13 %
+rendered size:   1.54 KB
+original size:   2.126 KB
+code reduction:  27.56 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VCheckbox/VCheckbox.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/composables/stack.mjs
+bundle space:    0.13 %
+rendered size:   1.528 KB
+original size:   1.788 KB
+code reduction:  14.54 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VOverlay/VOverlay.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vue/dist/vue.esm-bundler.js
+bundle space:    0.12 %
+rendered size:   1.494 KB
+original size:   2.741 KB
+code reduction:  45.49 %
+dependents:      1
+  - /src/main.js
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VAvatar/VAvatar.mjs
+bundle space:    0.12 %
+rendered size:   1.492 KB
+original size:   2.272 KB
+code reduction:  34.33 %
+dependents:      0
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VLazy/VLazy.mjs
+bundle space:    0.12 %
+rendered size:   1.468 KB
+original size:   2.11 KB
+code reduction:  30.43 %
+dependents:      0
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/util/animation.mjs
+bundle space:    0.12 %
+rendered size:   1.404 KB
+original size:   1.49 KB
+code reduction:  5.77 %
+dependents:      0
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VChipGroup/VChipGroup.mjs
+bundle space:    0.11 %
+rendered size:   1.388 KB
+original size:   2.006 KB
+code reduction:  30.81 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VChip/VChip.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/util/color/transformSRGB.mjs
+bundle space:    0.11 %
+rendered size:   1.383 KB
+original size:   1.514 KB
+code reduction:  8.65 %
+dependents:      1
+  - /node_modules/vuetify/lib/util/colorUtils.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VSystemBar/VSystemBar.mjs
+bundle space:    0.11 %
+rendered size:   1.359 KB
+original size:   2.119 KB
+code reduction:  35.87 %
+dependents:      0
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/composables/color.mjs
+bundle space:    0.11 %
+rendered size:   1.336 KB
+original size:   1.506 KB
+code reduction:  11.29 %
+dependents:      29
+  - /node_modules/vuetify/lib/components/VToolbar/VToolbar.mjs
+  - /node_modules/vuetify/lib/composables/variant.mjs
+  - /node_modules/vuetify/lib/components/VIcon/VIcon.mjs
+  - /node_modules/vuetify/lib/components/VProgressCircular/VProgressCircular.mjs
+  - /node_modules/vuetify/lib/components/VProgressLinear/VProgressLinear.mjs
+  - /node_modules/vuetify/lib/components/VAlert/VAlert.mjs
+  - /node_modules/vuetify/lib/components/VField/VField.mjs
+  - /node_modules/vuetify/lib/components/VMessages/VMessages.mjs
+  - /node_modules/vuetify/lib/components/VSelectionControl/VSelectionControl.mjs
+  - /node_modules/vuetify/lib/components/VDivider/VDivider.mjs
+  - /node_modules/vuetify/lib/components/VList/VListSubheader.mjs
+  - /node_modules/vuetify/lib/components/VList/VList.mjs
+  - /node_modules/vuetify/lib/components/VOverlay/VOverlay.mjs
+  - /node_modules/vuetify/lib/components/VBadge/VBadge.mjs
+  - /node_modules/vuetify/lib/components/VBottomNavigation/VBottomNavigation.mjs
+  - /node_modules/vuetify/lib/components/VBreadcrumbs/VBreadcrumbsItem.mjs
+  - /node_modules/vuetify/lib/components/VBreadcrumbs/VBreadcrumbs.mjs
+  - /node_modules/vuetify/lib/components/VSlider/VSliderThumb.mjs
+  - /node_modules/vuetify/lib/components/VSlider/VSliderTrack.mjs
+  - /node_modules/vuetify/lib/components/VSheet/VSheet.mjs
+  - /node_modules/vuetify/lib/components/VCombobox/VCombobox.mjs
+  - /node_modules/vuetify/lib/components/VExpansionPanel/VExpansionPanelTitle.mjs
+  - /node_modules/vuetify/lib/components/VExpansionPanel/VExpansionPanel.mjs
+  - /node_modules/vuetify/lib/components/VFooter/VFooter.mjs
+  - /node_modules/vuetify/lib/components/VNavigationDrawer/VNavigationDrawer.mjs
+  - /node_modules/vuetify/lib/components/VSystemBar/VSystemBar.mjs
+  - /node_modules/vuetify/lib/components/VTabs/VTab.mjs
+  - /node_modules/vuetify/lib/components/VTabs/VTabs.mjs
+  - /node_modules/vuetify/lib/components/VTimeline/VTimelineDivider.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VTable/VTable.mjs
+bundle space:    0.11 %
+rendered size:   1.333 KB
+original size:   1.786 KB
+code reduction:  25.36 %
+dependents:      0
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VDivider/VDivider.mjs
+bundle space:    0.11 %
+rendered size:   1.329 KB
+original size:   1.762 KB
+code reduction:  24.57 %
+dependents:      0
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VCheckbox/VCheckbox.mjs
+bundle space:    0.11 %
+rendered size:   1.322 KB
+original size:   1.929 KB
+code reduction:  31.47 %
+dependents:      0
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VForm/VForm.mjs
+bundle space:    0.11 %
+rendered size:   1.308 KB
+original size:   1.67 KB
+code reduction:  21.68 %
+dependents:      0
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/composables/nested/openStrategies.mjs
+bundle space:    0.1 %
+rendered size:   1.27 KB
+original size:   1.335 KB
+code reduction:  4.87 %
+dependents:      1
+  - /node_modules/vuetify/lib/composables/nested/nested.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/transitions/index.mjs
+bundle space:    0.1 %
+rendered size:   1.264 KB
+original size:   1.654 KB
+code reduction:  23.58 %
+dependents:      13
+  - /node_modules/vuetify/lib/components/VToolbar/VToolbar.mjs
+  - /node_modules/vuetify/lib/components/VField/VField.mjs
+  - /node_modules/vuetify/lib/components/VMessages/VMessages.mjs
+  - /node_modules/vuetify/lib/components/VCounter/VCounter.mjs
+  - /node_modules/vuetify/lib/components/VChip/VChip.mjs
+  - /node_modules/vuetify/lib/components/VList/VListGroup.mjs
+  - /node_modules/vuetify/lib/components/VMenu/VMenu.mjs
+  - /node_modules/vuetify/lib/components/VSelect/VSelect.mjs
+  - /node_modules/vuetify/lib/components/VSlider/VSliderThumb.mjs
+  - /node_modules/vuetify/lib/components/VDialog/VDialog.mjs
+  - /node_modules/vuetify/lib/components/VExpansionPanel/VExpansionPanelText.mjs
+  - /node_modules/vuetify/lib/components/VSlideGroup/VSlideGroup.mjs
+  - /node_modules/vuetify/lib/components/index.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/iconsets/mdi.mjs
+bundle space:    0.1 %
+rendered size:   1.249 KB
+original size:   1.411 KB
+code reduction:  11.48 %
+dependents:      1
+  - /node_modules/vuetify/lib/composables/icons.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/util/propsFactory.mjs
+bundle space:    0.1 %
+rendered size:   1.238 KB
+original size:   1.287 KB
+code reduction:  3.81 %
+dependents:      1
+  - /node_modules/vuetify/lib/util/defineComponent.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VSheet/VSheet.mjs
+bundle space:    0.1 %
+rendered size:   1.23 KB
+original size:   2.195 KB
+code reduction:  43.96 %
+dependents:      0
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VOverlay/util/point.mjs
+bundle space:    0.1 %
+rendered size:   1.211 KB
+original size:   1.444 KB
+code reduction:  16.14 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VOverlay/locationStrategies.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/directives/scroll/index.mjs
+bundle space:    0.1 %
+rendered size:   1.198 KB
+original size:   1.263 KB
+code reduction:  5.15 %
+dependents:      1
+  - /node_modules/vuetify/lib/directives/index.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/util/anchor.mjs
+bundle space:    0.1 %
+rendered size:   1.161 KB
+original size:   1.281 KB
+code reduction:  9.37 %
+dependents:      0
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/composables/defaults.mjs
+bundle space:    0.1 %
+rendered size:   1.153 KB
+original size:   1.334 KB
+code reduction:  13.57 %
+dependents:      20
+  - /node_modules/vuetify/lib/util/defineComponent.mjs
+  - /node_modules/vuetify/lib/framework.mjs
+  - /node_modules/vuetify/lib/components/VDefaultsProvider/VDefaultsProvider.mjs
+  - /node_modules/vuetify/lib/components/VToolbar/VToolbar.mjs
+  - /node_modules/vuetify/lib/components/VBtnGroup/VBtnGroup.mjs
+  - /node_modules/vuetify/lib/components/VToolbar/VToolbarItems.mjs
+  - /node_modules/vuetify/lib/components/VSelectionControlGroup/VSelectionControlGroup.mjs
+  - /node_modules/vuetify/lib/components/VChipGroup/VChipGroup.mjs
+  - /node_modules/vuetify/lib/components/VList/VList.mjs
+  - /node_modules/vuetify/lib/components/VBanner/VBannerActions.mjs
+  - /node_modules/vuetify/lib/components/VBanner/VBanner.mjs
+  - /node_modules/vuetify/lib/components/VBottomNavigation/VBottomNavigation.mjs
+  - /node_modules/vuetify/lib/components/VBreadcrumbs/VBreadcrumbs.mjs
+  - /node_modules/vuetify/lib/components/VCard/VCardActions.mjs
+  - /node_modules/vuetify/lib/components/VExpansionPanel/VExpansionPanels.mjs
+  - /node_modules/vuetify/lib/components/VNavigationDrawer/VNavigationDrawer.mjs
+  - /node_modules/vuetify/lib/components/VPagination/VPagination.mjs
+  - /node_modules/vuetify/lib/components/VTabs/VTabs.mjs
+  - /node_modules/vuetify/lib/components/VTimeline/VTimeline.mjs
+  - /node_modules/vuetify/lib/components/VTimeline/VTimelineDivider.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VBtnGroup/VBtnGroup.mjs
+bundle space:    0.09 %
+rendered size:   1.151 KB
+original size:   2.028 KB
+code reduction:  43.24 %
+dependents:      0
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/composables/variant.mjs
+bundle space:    0.09 %
+rendered size:   1.132 KB
+original size:   1.461 KB
+code reduction:  22.52 %
+dependents:      12
+  - /node_modules/vuetify/lib/components/VBtnGroup/VBtnGroup.mjs
+  - /node_modules/vuetify/lib/components/VBtn/VBtn.mjs
+  - /node_modules/vuetify/lib/components/VToolbar/VToolbarItems.mjs
+  - /node_modules/vuetify/lib/components/VAlert/VAlert.mjs
+  - /node_modules/vuetify/lib/components/VAvatar/VAvatar.mjs
+  - /node_modules/vuetify/lib/components/VChipGroup/VChipGroup.mjs
+  - /node_modules/vuetify/lib/components/VChip/VChip.mjs
+  - /node_modules/vuetify/lib/components/VList/VListItem.mjs
+  - /node_modules/vuetify/lib/components/VList/VList.mjs
+  - /node_modules/vuetify/lib/components/VCard/VCard.mjs
+  - /node_modules/vuetify/lib/components/VPagination/VPagination.mjs
+  - /node_modules/vuetify/lib/components/VSnackbar/VSnackbar.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VExpansionPanel/VExpansionPanels.mjs
+bundle space:    0.09 %
+rendered size:   1.124 KB
+original size:   1.733 KB
+code reduction:  35.14 %
+dependents:      3
+  - /node_modules/vuetify/lib/components/VExpansionPanel/VExpansionPanelTitle.mjs
+  - /node_modules/vuetify/lib/components/VExpansionPanel/VExpansionPanelText.mjs
+  - /node_modules/vuetify/lib/components/VExpansionPanel/VExpansionPanel.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VResponsive/VResponsive.mjs
+bundle space:    0.09 %
+rendered size:   1.12 KB
+original size:   1.48 KB
+code reduction:  24.32 %
+dependents:      0
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VMessages/VMessages.mjs
+bundle space:    0.09 %
+rendered size:   1.07 KB
+original size:   1.58 KB
+code reduction:  32.28 %
+dependents:      0
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VExpansionPanel/VExpansionPanelText.mjs
+bundle space:    0.08 %
+rendered size:   1.007 KB
+original size:   1.503 KB
+code reduction:  33 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VExpansionPanel/VExpansionPanel.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VList/VListSubheader.mjs
+bundle space:    0.08 %
+rendered size:   982 Bytes
+original size:   1.328 KB
+code reduction:  26.05 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VList/VListChildren.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VItemGroup/VItemGroup.mjs
+bundle space:    0.08 %
+rendered size:   951 Bytes
+original size:   1.385 KB
+code reduction:  31.34 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VItemGroup/VItem.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VLayout/VLayoutItem.mjs
+bundle space:    0.08 %
+rendered size:   934 Bytes
+original size:   1.288 KB
+code reduction:  27.48 %
+dependents:      0
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/directives/resize/index.mjs
+bundle space:    0.08 %
+rendered size:   919 Bytes
+original size:   956 Bytes
+code reduction:  3.87 %
+dependents:      1
+  - /node_modules/vuetify/lib/directives/index.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VApp/VApp.mjs
+bundle space:    0.08 %
+rendered size:   910 Bytes
+original size:   1.34 KB
+code reduction:  32.09 %
+dependents:      0
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/composables/delay.mjs
+bundle space:    0.07 %
+rendered size:   888 Bytes
+original size:   1.008 KB
+code reduction:  11.9 %
+dependents:      2
+  - /node_modules/vuetify/lib/components/VOverlay/useActivator.mjs
+  - /node_modules/vuetify/lib/components/VHover/VHover.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VCounter/VCounter.mjs
+bundle space:    0.07 %
+rendered size:   885 Bytes
+original size:   1.365 KB
+code reduction:  35.16 %
+dependents:      0
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VMain/VMain.mjs
+bundle space:    0.07 %
+rendered size:   881 Bytes
+original size:   1.28 KB
+code reduction:  31.17 %
+dependents:      0
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VHover/VHover.mjs
+bundle space:    0.07 %
+rendered size:   812 Bytes
+original size:   1.066 KB
+code reduction:  23.83 %
+dependents:      0
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VBtnToggle/VBtnToggle.mjs
+bundle space:    0.07 %
+rendered size:   809 Bytes
+original size:   1.194 KB
+code reduction:  32.24 %
+dependents:      2
+  - /node_modules/vuetify/lib/components/VBtn/VBtn.mjs
+  - /node_modules/vuetify/lib/components/VBottomNavigation/VBottomNavigation.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/composables/loader.mjs
+bundle space:    0.07 %
+rendered size:   804 Bytes
+original size:   1.131 KB
+code reduction:  28.91 %
+dependents:      4
+  - /node_modules/vuetify/lib/components/VBtn/VBtn.mjs
+  - /node_modules/vuetify/lib/components/VField/VField.mjs
+  - /node_modules/vuetify/lib/components/VCard/VCard.mjs
+  - /node_modules/vuetify/lib/components/VSwitch/VSwitch.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/util/getCurrentInstance.mjs
+bundle space:    0.06 %
+rendered size:   782 Bytes
+original size:   961 Bytes
+code reduction:  18.63 %
+dependents:      2
+  - /node_modules/vuetify/lib/util/injectSelf.mjs
+  - /node_modules/vuetify/lib/util/useRender.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/composables/rounded.mjs
+bundle space:    0.06 %
+rendered size:   749 Bytes
+original size:   922 Bytes
+code reduction:  18.76 %
+dependents:      26
+  - /node_modules/vuetify/lib/components/VToolbar/VToolbar.mjs
+  - /node_modules/vuetify/lib/components/VBtnGroup/VBtnGroup.mjs
+  - /node_modules/vuetify/lib/components/VProgressLinear/VProgressLinear.mjs
+  - /node_modules/vuetify/lib/components/VBtn/VBtn.mjs
+  - /node_modules/vuetify/lib/components/VAlert/VAlert.mjs
+  - /node_modules/vuetify/lib/components/VAvatar/VAvatar.mjs
+  - /node_modules/vuetify/lib/components/VChip/VChip.mjs
+  - /node_modules/vuetify/lib/components/VList/VListItem.mjs
+  - /node_modules/vuetify/lib/components/VList/VList.mjs
+  - /node_modules/vuetify/lib/components/VBadge/VBadge.mjs
+  - /node_modules/vuetify/lib/components/VBanner/VBanner.mjs
+  - /node_modules/vuetify/lib/components/VBottomNavigation/VBottomNavigation.mjs
+  - /node_modules/vuetify/lib/components/VBreadcrumbs/VBreadcrumbs.mjs
+  - /node_modules/vuetify/lib/components/VCard/VCard.mjs
+  - /node_modules/vuetify/lib/components/VSlider/slider.mjs
+  - /node_modules/vuetify/lib/components/VSlider/VSliderTrack.mjs
+  - /node_modules/vuetify/lib/components/VSheet/VSheet.mjs
+  - /node_modules/vuetify/lib/components/VColorPicker/VColorPicker.mjs
+  - /node_modules/vuetify/lib/components/VExpansionPanel/VExpansionPanel.mjs
+  - /node_modules/vuetify/lib/components/VFooter/VFooter.mjs
+  - /node_modules/vuetify/lib/components/VNavigationDrawer/VNavigationDrawer.mjs
+  - /node_modules/vuetify/lib/components/VPagination/VPagination.mjs
+  - /node_modules/vuetify/lib/components/VSnackbar/VSnackbar.mjs
+  - /node_modules/vuetify/lib/components/VSystemBar/VSystemBar.mjs
+  - /node_modules/vuetify/lib/components/VTimeline/VTimelineDivider.mjs
+  - /node_modules/vuetify/lib/components/VTimeline/VTimelineItem.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/composables/size.mjs
+bundle space:    0.06 %
+rendered size:   739 Bytes
+original size:   913 Bytes
+code reduction:  19.06 %
+dependents:      9
+  - /node_modules/vuetify/lib/components/VIcon/VIcon.mjs
+  - /node_modules/vuetify/lib/components/VProgressCircular/VProgressCircular.mjs
+  - /node_modules/vuetify/lib/components/VBtn/VBtn.mjs
+  - /node_modules/vuetify/lib/components/VAvatar/VAvatar.mjs
+  - /node_modules/vuetify/lib/components/VChip/VChip.mjs
+  - /node_modules/vuetify/lib/components/VPagination/VPagination.mjs
+  - /node_modules/vuetify/lib/components/VRating/VRating.mjs
+  - /node_modules/vuetify/lib/components/VTimeline/VTimelineDivider.mjs
+  - /node_modules/vuetify/lib/components/VTimeline/VTimelineItem.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/composables/intersectionObserver.mjs
+bundle space:    0.06 %
+rendered size:   735 Bytes
+original size:   902 Bytes
+code reduction:  18.51 %
+dependents:      3
+  - /node_modules/vuetify/lib/components/VProgressCircular/VProgressCircular.mjs
+  - /node_modules/vuetify/lib/components/VProgressLinear/VProgressLinear.mjs
+  - /node_modules/vuetify/lib/components/VParallax/VParallax.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/composables/teleport.mjs
+bundle space:    0.06 %
+rendered size:   735 Bytes
+original size:   925 Bytes
+code reduction:  20.54 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VOverlay/VOverlay.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/util/dom.mjs
+bundle space:    0.06 %
+rendered size:   729 Bytes
+original size:   769 Bytes
+code reduction:  5.2 %
+dependents:      0
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/composables/resizeObserver.mjs
+bundle space:    0.06 %
+rendered size:   716 Bytes
+original size:   889 Bytes
+code reduction:  19.46 %
+dependents:      6
+  - /node_modules/vuetify/lib/composables/layout.mjs
+  - /node_modules/vuetify/lib/components/VProgressCircular/VProgressCircular.mjs
+  - /node_modules/vuetify/lib/components/VFooter/VFooter.mjs
+  - /node_modules/vuetify/lib/components/VPagination/VPagination.mjs
+  - /node_modules/vuetify/lib/components/VParallax/VParallax.mjs
+  - /node_modules/vuetify/lib/components/VSlideGroup/VSlideGroup.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/composables/elevation.mjs
+bundle space:    0.06 %
+rendered size:   710 Bytes
+original size:   861 Bytes
+code reduction:  17.54 %
+dependents:      21
+  - /node_modules/vuetify/lib/components/VToolbar/VToolbar.mjs
+  - /node_modules/vuetify/lib/components/VBtnGroup/VBtnGroup.mjs
+  - /node_modules/vuetify/lib/components/VBtn/VBtn.mjs
+  - /node_modules/vuetify/lib/components/VAlert/VAlert.mjs
+  - /node_modules/vuetify/lib/components/VChip/VChip.mjs
+  - /node_modules/vuetify/lib/components/VList/VListItem.mjs
+  - /node_modules/vuetify/lib/components/VList/VList.mjs
+  - /node_modules/vuetify/lib/components/VBanner/VBanner.mjs
+  - /node_modules/vuetify/lib/components/VBottomNavigation/VBottomNavigation.mjs
+  - /node_modules/vuetify/lib/components/VCard/VCard.mjs
+  - /node_modules/vuetify/lib/components/VSlider/slider.mjs
+  - /node_modules/vuetify/lib/components/VSlider/VSliderThumb.mjs
+  - /node_modules/vuetify/lib/components/VSheet/VSheet.mjs
+  - /node_modules/vuetify/lib/components/VColorPicker/VColorPicker.mjs
+  - /node_modules/vuetify/lib/components/VExpansionPanel/VExpansionPanel.mjs
+  - /node_modules/vuetify/lib/components/VFooter/VFooter.mjs
+  - /node_modules/vuetify/lib/components/VNavigationDrawer/VNavigationDrawer.mjs
+  - /node_modules/vuetify/lib/components/VPagination/VPagination.mjs
+  - /node_modules/vuetify/lib/components/VSystemBar/VSystemBar.mjs
+  - /node_modules/vuetify/lib/components/VTimeline/VTimelineDivider.mjs
+  - /node_modules/vuetify/lib/components/VTimeline/VTimelineItem.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VItemGroup/VItem.mjs
+bundle space:    0.06 %
+rendered size:   699 Bytes
+original size:   953 Bytes
+code reduction:  26.65 %
+dependents:      0
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VThemeProvider/VThemeProvider.mjs
+bundle space:    0.06 %
+rendered size:   697 Bytes
+original size:   1.06 KB
+code reduction:  34.25 %
+dependents:      0
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/composables/border.mjs
+bundle space:    0.06 %
+rendered size:   694 Bytes
+original size:   866 Bytes
+code reduction:  19.86 %
+dependents:      13
+  - /node_modules/vuetify/lib/components/VToolbar/VToolbar.mjs
+  - /node_modules/vuetify/lib/components/VBtnGroup/VBtnGroup.mjs
+  - /node_modules/vuetify/lib/components/VBtn/VBtn.mjs
+  - /node_modules/vuetify/lib/components/VChip/VChip.mjs
+  - /node_modules/vuetify/lib/components/VList/VListItem.mjs
+  - /node_modules/vuetify/lib/components/VList/VList.mjs
+  - /node_modules/vuetify/lib/components/VBanner/VBanner.mjs
+  - /node_modules/vuetify/lib/components/VBottomNavigation/VBottomNavigation.mjs
+  - /node_modules/vuetify/lib/components/VCard/VCard.mjs
+  - /node_modules/vuetify/lib/components/VSheet/VSheet.mjs
+  - /node_modules/vuetify/lib/components/VFooter/VFooter.mjs
+  - /node_modules/vuetify/lib/components/VNavigationDrawer/VNavigationDrawer.mjs
+  - /node_modules/vuetify/lib/components/VPagination/VPagination.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/util/color/transformCIELAB.mjs
+bundle space:    0.06 %
+rendered size:   690 Bytes
+original size:   749 Bytes
+code reduction:  7.88 %
+dependents:      1
+  - /node_modules/vuetify/lib/util/colorUtils.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VToolbar/VToolbarTitle.mjs
+bundle space:    0.05 %
+rendered size:   664 Bytes
+original size:   930 Bytes
+code reduction:  28.6 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VToolbar/VToolbar.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /src/App.vue
+bundle space:    0.05 %
+rendered size:   662 Bytes
+original size:   204 Bytes
+code reduction:  0 %
+dependents:      1
+  - /src/main.js
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/util/getScrollParent.mjs
+bundle space:    0.05 %
+rendered size:   660 Bytes
+original size:   726 Bytes
+code reduction:  9.09 %
+dependents:      0
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VSlideGroup/VSlideGroupItem.mjs
+bundle space:    0.05 %
+rendered size:   659 Bytes
+original size:   925 Bytes
+code reduction:  28.76 %
+dependents:      0
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/util/createSimpleFunctional.mjs
+bundle space:    0.05 %
+rendered size:   653 Bytes
+original size:   814 Bytes
+code reduction:  19.78 %
+dependents:      0
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VInput/InputIcon.mjs
+bundle space:    0.05 %
+rendered size:   646 Bytes
+original size:   846 Bytes
+code reduction:  23.64 %
+dependents:      2
+  - /node_modules/vuetify/lib/components/VField/VField.mjs
+  - /node_modules/vuetify/lib/components/VInput/VInput.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/composables/dimensions.mjs
+bundle space:    0.05 %
+rendered size:   645 Bytes
+original size:   805 Bytes
+code reduction:  19.88 %
+dependents:      11
+  - /node_modules/vuetify/lib/components/VResponsive/VResponsive.mjs
+  - /node_modules/vuetify/lib/components/VBtn/VBtn.mjs
+  - /node_modules/vuetify/lib/components/VAlert/VAlert.mjs
+  - /node_modules/vuetify/lib/components/VList/VListItem.mjs
+  - /node_modules/vuetify/lib/components/VList/VList.mjs
+  - /node_modules/vuetify/lib/components/VOverlay/VOverlay.mjs
+  - /node_modules/vuetify/lib/components/VBanner/VBanner.mjs
+  - /node_modules/vuetify/lib/components/VCard/VCard.mjs
+  - /node_modules/vuetify/lib/components/VSheet/VSheet.mjs
+  - /node_modules/vuetify/lib/components/VLazy/VLazy.mjs
+  - /node_modules/vuetify/lib/components/VTimeline/VTimelineItem.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/composables/density.mjs
+bundle space:    0.05 %
+rendered size:   632 Bytes
+original size:   798 Bytes
+code reduction:  20.8 %
+dependents:      20
+  - /node_modules/vuetify/lib/components/VBtnGroup/VBtnGroup.mjs
+  - /node_modules/vuetify/lib/components/VBtn/VBtn.mjs
+  - /node_modules/vuetify/lib/components/VAlert/VAlert.mjs
+  - /node_modules/vuetify/lib/components/VInput/VInput.mjs
+  - /node_modules/vuetify/lib/components/VSelectionControlGroup/VSelectionControlGroup.mjs
+  - /node_modules/vuetify/lib/components/VSelectionControl/VSelectionControl.mjs
+  - /node_modules/vuetify/lib/components/VAvatar/VAvatar.mjs
+  - /node_modules/vuetify/lib/components/VChip/VChip.mjs
+  - /node_modules/vuetify/lib/components/VList/VListItem.mjs
+  - /node_modules/vuetify/lib/components/VList/VList.mjs
+  - /node_modules/vuetify/lib/components/VBanner/VBanner.mjs
+  - /node_modules/vuetify/lib/components/VBottomNavigation/VBottomNavigation.mjs
+  - /node_modules/vuetify/lib/components/VBreadcrumbs/VBreadcrumbs.mjs
+  - /node_modules/vuetify/lib/components/VCard/VCardItem.mjs
+  - /node_modules/vuetify/lib/components/VCard/VCard.mjs
+  - /node_modules/vuetify/lib/components/VPagination/VPagination.mjs
+  - /node_modules/vuetify/lib/components/VRating/VRating.mjs
+  - /node_modules/vuetify/lib/components/VTabs/VTabs.mjs
+  - /node_modules/vuetify/lib/components/VTable/VTable.mjs
+  - /node_modules/vuetify/lib/components/VTimeline/VTimeline.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/util/box.mjs
+bundle space:    0.05 %
+rendered size:   624 Bytes
+original size:   671 Bytes
+code reduction:  7 %
+dependents:      2
+  - /node_modules/vuetify/lib/util/animation.mjs
+  - /node_modules/vuetify/lib/components/VOverlay/locationStrategies.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VLayout/VLayout.mjs
+bundle space:    0.05 %
+rendered size:   614 Bytes
+original size:   918 Bytes
+code reduction:  33.12 %
+dependents:      0
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VLocaleProvider/VLocaleProvider.mjs
+bundle space:    0.05 %
+rendered size:   597 Bytes
+original size:   901 Bytes
+code reduction:  33.74 %
+dependents:      0
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VDefaultsProvider/VDefaultsProvider.mjs
+bundle space:    0.05 %
+rendered size:   585 Bytes
+original size:   808 Bytes
+code reduction:  27.6 %
+dependents:      0
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VToolbar/VToolbarItems.mjs
+bundle space:    0.05 %
+rendered size:   575 Bytes
+original size:   933 Bytes
+code reduction:  38.37 %
+dependents:      0
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/composables/focus.mjs
+bundle space:    0.05 %
+rendered size:   574 Bytes
+original size:   805 Bytes
+code reduction:  28.7 %
+dependents:      8
+  - /node_modules/vuetify/lib/components/VField/VField.mjs
+  - /node_modules/vuetify/lib/composables/validation.mjs
+  - /node_modules/vuetify/lib/components/VTextField/VTextField.mjs
+  - /node_modules/vuetify/lib/components/VCheckbox/VCheckbox.mjs
+  - /node_modules/vuetify/lib/components/VSlider/VSlider.mjs
+  - /node_modules/vuetify/lib/components/VRangeSlider/VRangeSlider.mjs
+  - /node_modules/vuetify/lib/components/VSwitch/VSwitch.mjs
+  - /node_modules/vuetify/lib/components/VTextarea/VTextarea.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/locale/index.mjs
+bundle space:    0.05 %
+rendered size:   570 Bytes
+original size:   2.414 KB
+code reduction:  76.39 %
+dependents:      1
+  - /node_modules/vuetify/lib/composables/locale.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/composables/position.mjs
+bundle space:    0.05 %
+rendered size:   565 Bytes
+original size:   732 Bytes
+code reduction:  22.81 %
+dependents:      6
+  - /node_modules/vuetify/lib/components/VBtn/VBtn.mjs
+  - /node_modules/vuetify/lib/components/VAlert/VAlert.mjs
+  - /node_modules/vuetify/lib/components/VBanner/VBanner.mjs
+  - /node_modules/vuetify/lib/components/VCard/VCard.mjs
+  - /node_modules/vuetify/lib/components/VSheet/VSheet.mjs
+  - /node_modules/vuetify/lib/components/VSnackbar/VSnackbar.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/composables/transition.mjs
+bundle space:    0.05 %
+rendered size:   560 Bytes
+original size:   722 Bytes
+code reduction:  22.44 %
+dependents:      10
+  - /node_modules/vuetify/lib/components/VImg/VImg.mjs
+  - /node_modules/vuetify/lib/components/VMessages/VMessages.mjs
+  - /node_modules/vuetify/lib/components/VCounter/VCounter.mjs
+  - /node_modules/vuetify/lib/components/VOverlay/VOverlay.mjs
+  - /node_modules/vuetify/lib/components/VSelect/VSelect.mjs
+  - /node_modules/vuetify/lib/components/VAutocomplete/VAutocomplete.mjs
+  - /node_modules/vuetify/lib/components/VBadge/VBadge.mjs
+  - /node_modules/vuetify/lib/components/VWindow/VWindowItem.mjs
+  - /node_modules/vuetify/lib/components/VCombobox/VCombobox.mjs
+  - /node_modules/vuetify/lib/components/VLazy/VLazy.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VBanner/VBannerActions.mjs
+bundle space:    0.05 %
+rendered size:   557 Bytes
+original size:   819 Bytes
+code reduction:  31.99 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VBanner/VBanner.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VOverlay/requestNewFrame.mjs
+bundle space:    0.04 %
+rendered size:   543 Bytes
+original size:   595 Bytes
+code reduction:  8.74 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VOverlay/scrollStrategies.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /src/main.js
+bundle space:    0.04 %
+rendered size:   526 Bytes
+original size:   932 Bytes
+code reduction:  43.56 %
+dependents:      1
+  - /index.html
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VLabel/VLabel.mjs
+bundle space:    0.04 %
+rendered size:   500 Bytes
+original size:   786 Bytes
+code reduction:  36.39 %
+dependents:      0
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VList/VListItemMedia.mjs
+bundle space:    0.04 %
+rendered size:   458 Bytes
+original size:   753 Bytes
+code reduction:  39.18 %
+dependents:      0
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VValidation/VValidation.mjs
+bundle space:    0.04 %
+rendered size:   456 Bytes
+original size:   660 Bytes
+code reduction:  30.91 %
+dependents:      0
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VList/list.mjs
+bundle space:    0.04 %
+rendered size:   432 Bytes
+original size:   840 Bytes
+code reduction:  48.57 %
+dependents:      4
+  - /node_modules/vuetify/lib/components/VList/VListGroup.mjs
+  - /node_modules/vuetify/lib/components/VList/VListItem.mjs
+  - /node_modules/vuetify/lib/components/VList/VListChildren.mjs
+  - /node_modules/vuetify/lib/components/VList/VList.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VCard/VCardActions.mjs
+bundle space:    0.04 %
+rendered size:   432 Bytes
+original size:   692 Bytes
+code reduction:  37.57 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VCard/VCard.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VList/VListItemAction.mjs
+bundle space:    0.04 %
+rendered size:   431 Bytes
+original size:   727 Bytes
+code reduction:  40.72 %
+dependents:      0
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/composables/toggleScope.mjs
+bundle space:    0.04 %
+rendered size:   428 Bytes
+original size:   534 Bytes
+code reduction:  19.85 %
+dependents:      5
+  - /node_modules/vuetify/lib/util/defineComponent.mjs
+  - /node_modules/vuetify/lib/composables/proxiedModel.mjs
+  - /node_modules/vuetify/lib/composables/validation.mjs
+  - /node_modules/vuetify/lib/composables/stack.mjs
+  - /node_modules/vuetify/lib/components/VOverlay/VOverlay.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/composables/lazy.mjs
+bundle space:    0.03 %
+rendered size:   416 Bytes
+original size:   568 Bytes
+code reduction:  26.76 %
+dependents:      4
+  - /node_modules/vuetify/lib/components/VOverlay/VOverlay.mjs
+  - /node_modules/vuetify/lib/components/VWindow/VWindowItem.mjs
+  - /node_modules/vuetify/lib/components/VExpansionPanel/VExpansionPanelText.mjs
+  - /node_modules/vuetify/lib/components/VExpansionPanel/VExpansionPanel.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VGrid/VContainer.mjs
+bundle space:    0.03 %
+rendered size:   385 Bytes
+original size:   709 Bytes
+code reduction:  45.7 %
+dependents:      0
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VRadio/VRadio.mjs
+bundle space:    0.03 %
+rendered size:   383 Bytes
+original size:   746 Bytes
+code reduction:  48.66 %
+dependents:      0
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VField/VFieldLabel.mjs
+bundle space:    0.03 %
+rendered size:   382 Bytes
+original size:   661 Bytes
+code reduction:  42.21 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VField/VField.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VCarousel/VCarouselItem.mjs
+bundle space:    0.03 %
+rendered size:   380 Bytes
+original size:   710 Bytes
+code reduction:  46.48 %
+dependents:      0
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/composables/ssrBoot.mjs
+bundle space:    0.03 %
+rendered size:   368 Bytes
+original size:   470 Bytes
+code reduction:  21.7 %
+dependents:      3
+  - /node_modules/vuetify/lib/components/VWindow/VWindowItem.mjs
+  - /node_modules/vuetify/lib/components/VMain/VMain.mjs
+  - /node_modules/vuetify/lib/components/VNavigationDrawer/VNavigationDrawer.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/composables/selectLink.mjs
+bundle space:    0.03 %
+rendered size:   353 Bytes
+original size:   439 Bytes
+code reduction:  19.59 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VBtn/VBtn.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/util/globals.mjs
+bundle space:    0.03 %
+rendered size:   348 Bytes
+original size:   413 Bytes
+code reduction:  15.74 %
+dependents:      2
+  - /node_modules/vuetify/lib/composables/display.mjs
+  - /node_modules/vuetify/lib/composables/resizeObserver.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VAppBar/VAppBarNavIcon.mjs
+bundle space:    0.03 %
+rendered size:   346 Bytes
+original size:   696 Bytes
+code reduction:  50.29 %
+dependents:      0
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VNoSsr/VNoSsr.mjs
+bundle space:    0.03 %
+rendered size:   322 Bytes
+original size:   498 Bytes
+code reduction:  35.34 %
+dependents:      0
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/composables/hydration.mjs
+bundle space:    0.02 %
+rendered size:   282 Bytes
+original size:   458 Bytes
+code reduction:  38.43 %
+dependents:      2
+  - /node_modules/vuetify/lib/components/VOverlay/VOverlay.mjs
+  - /node_modules/vuetify/lib/components/VNoSsr/VNoSsr.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VAppBar/VAppBarTitle.mjs
+bundle space:    0.02 %
+rendered size:   281 Bytes
+original size:   571 Bytes
+code reduction:  50.79 %
+dependents:      0
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/util/injectSelf.mjs
+bundle space:    0.02 %
+rendered size:   203 Bytes
+original size:   313 Bytes
+code reduction:  35.14 %
+dependents:      1
+  - /node_modules/vuetify/lib/util/defineComponent.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/composables/refs.mjs
+bundle space:    0.02 %
+rendered size:   194 Bytes
+original size:   278 Bytes
+code reduction:  30.22 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VPagination/VPagination.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/util/easing.mjs
+bundle space:    0.02 %
+rendered size:   191 Bytes
+original size:   248 Bytes
+code reduction:  22.98 %
+dependents:      0
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/composables/scopeId.mjs
+bundle space:    0.02 %
+rendered size:   187 Bytes
+original size:   287 Bytes
+code reduction:  34.84 %
+dependents:      5
+  - /node_modules/vuetify/lib/components/VOverlay/VOverlay.mjs
+  - /node_modules/vuetify/lib/components/VMenu/VMenu.mjs
+  - /node_modules/vuetify/lib/components/VDialog/VDialog.mjs
+  - /node_modules/vuetify/lib/components/VSnackbar/VSnackbar.mjs
+  - /node_modules/vuetify/lib/components/VTooltip/VTooltip.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/util/isFixedPosition.mjs
+bundle space:    0.01 %
+rendered size:   178 Bytes
+original size:   230 Bytes
+code reduction:  22.61 %
+dependents:      0
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /src/views/Home.vue
+bundle space:    0.01 %
+rendered size:   163 Bytes
+original size:   29 Bytes
+code reduction:  0 %
+dependents:      1
+  - /src/main.js
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:             plugin-vue:export-helper
+bundle space:    0.01 %
+rendered size:   159 Bytes
+original size:   155 Bytes
+code reduction:  0 %
+dependents:      2
+  - /src/views/Home.vue
+  - /src/views/About.vue
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /src/views/About.vue
+bundle space:    0.01 %
+rendered size:   157 Bytes
+original size:   31 Bytes
+code reduction:  0 %
+dependents:      1
+  - /src/main.js
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/composables/tag.mjs
+bundle space:    0.01 %
+rendered size:   124 Bytes
+original size:   223 Bytes
+code reduction:  44.39 %
+dependents:      45
+  - /node_modules/vuetify/lib/components/VToolbar/VToolbarTitle.mjs
+  - /node_modules/vuetify/lib/components/VToolbar/VToolbar.mjs
+  - /node_modules/vuetify/lib/components/VBtnGroup/VBtnGroup.mjs
+  - /node_modules/vuetify/lib/components/VIcon/VIcon.mjs
+  - /node_modules/vuetify/lib/components/VProgressCircular/VProgressCircular.mjs
+  - /node_modules/vuetify/lib/components/VProgressLinear/VProgressLinear.mjs
+  - /node_modules/vuetify/lib/components/VBtn/VBtn.mjs
+  - /node_modules/vuetify/lib/components/VAlert/VAlert.mjs
+  - /node_modules/vuetify/lib/components/VAvatar/VAvatar.mjs
+  - /node_modules/vuetify/lib/components/VChipGroup/VChipGroup.mjs
+  - /node_modules/vuetify/lib/components/VChip/VChip.mjs
+  - /node_modules/vuetify/lib/components/VList/VListGroup.mjs
+  - /node_modules/vuetify/lib/components/VList/VListItem.mjs
+  - /node_modules/vuetify/lib/components/VList/VListSubheader.mjs
+  - /node_modules/vuetify/lib/components/VList/VList.mjs
+  - /node_modules/vuetify/lib/components/VList/VListItemAction.mjs
+  - /node_modules/vuetify/lib/components/VList/VListItemMedia.mjs
+  - /node_modules/vuetify/lib/components/VBadge/VBadge.mjs
+  - /node_modules/vuetify/lib/components/VBanner/VBanner.mjs
+  - /node_modules/vuetify/lib/components/VBottomNavigation/VBottomNavigation.mjs
+  - /node_modules/vuetify/lib/components/VBreadcrumbs/VBreadcrumbsItem.mjs
+  - /node_modules/vuetify/lib/components/VBreadcrumbs/VBreadcrumbs.mjs
+  - /node_modules/vuetify/lib/components/VCard/VCard.mjs
+  - /node_modules/vuetify/lib/components/VWindow/VWindow.mjs
+  - /node_modules/vuetify/lib/components/VSheet/VSheet.mjs
+  - /node_modules/vuetify/lib/components/VExpansionPanel/VExpansionPanels.mjs
+  - /node_modules/vuetify/lib/components/VExpansionPanel/VExpansionPanel.mjs
+  - /node_modules/vuetify/lib/components/VFooter/VFooter.mjs
+  - /node_modules/vuetify/lib/components/VGrid/VContainer.mjs
+  - /node_modules/vuetify/lib/components/VGrid/VCol.mjs
+  - /node_modules/vuetify/lib/components/VGrid/VRow.mjs
+  - /node_modules/vuetify/lib/components/VItemGroup/VItemGroup.mjs
+  - /node_modules/vuetify/lib/components/VLazy/VLazy.mjs
+  - /node_modules/vuetify/lib/components/VMain/VMain.mjs
+  - /node_modules/vuetify/lib/components/VNavigationDrawer/VNavigationDrawer.mjs
+  - /node_modules/vuetify/lib/components/VPagination/VPagination.mjs
+  - /node_modules/vuetify/lib/components/VRating/VRating.mjs
+  - /node_modules/vuetify/lib/components/VSlideGroup/VSlideGroup.mjs
+  - /node_modules/vuetify/lib/components/VSystemBar/VSystemBar.mjs
+  - /node_modules/vuetify/lib/components/VTabs/VTab.mjs
+  - /node_modules/vuetify/lib/components/VTabs/VTabs.mjs
+  - /node_modules/vuetify/lib/components/VTable/VTable.mjs
+  - /node_modules/vuetify/lib/components/VThemeProvider/VThemeProvider.mjs
+  - /node_modules/vuetify/lib/components/VTimeline/VTimeline.mjs
+  - /node_modules/vuetify/lib/components/VTimeline/VTimelineItem.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/util/useRender.mjs
+bundle space:    0.01 %
+rendered size:   111 Bytes
+original size:   229 Bytes
+code reduction:  51.53 %
+dependents:      0
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VBreadcrumbs/VBreadcrumbsDivider.mjs
+bundle space:    0.01 %
+rendered size:   82 Bytes
+original size:   201 Bytes
+code reduction:  59.2 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VBreadcrumbs/VBreadcrumbs.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VAlert/VAlertTitle.mjs
+bundle space:    0.01 %
+rendered size:   73 Bytes
+original size:   184 Bytes
+code reduction:  60.33 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VAlert/VAlert.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VList/VListItemSubtitle.mjs
+bundle space:    0.01 %
+rendered size:   73 Bytes
+original size:   190 Bytes
+code reduction:  61.58 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VList/VListItem.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VGrid/VSpacer.mjs
+bundle space:    0.01 %
+rendered size:   72 Bytes
+original size:   179 Bytes
+code reduction:  59.78 %
+dependents:      0
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VList/VListItemTitle.mjs
+bundle space:    0.01 %
+rendered size:   67 Bytes
+original size:   181 Bytes
+code reduction:  62.98 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VList/VListItem.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VCard/VCardSubtitle.mjs
+bundle space:    0.01 %
+rendered size:   64 Bytes
+original size:   177 Bytes
+code reduction:  63.84 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VCard/VCardItem.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VBanner/VBannerText.mjs
+bundle space:    0 %
+rendered size:   60 Bytes
+original size:   171 Bytes
+code reduction:  64.91 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VBanner/VBanner.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VCard/VCardTitle.mjs
+bundle space:    0 %
+rendered size:   58 Bytes
+original size:   168 Bytes
+code reduction:  65.48 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VCard/VCardItem.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VCard/VCardText.mjs
+bundle space:    0 %
+rendered size:   56 Bytes
+original size:   165 Bytes
+code reduction:  66.06 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VCard/VCard.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VList/VListImg.mjs
+bundle space:    0 %
+rendered size:   54 Bytes
+original size:   162 Bytes
+code reduction:  66.67 %
+dependents:      0
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VMenu/shared.mjs
+bundle space:    0 %
+rendered size:   49 Bytes
+original size:   92 Bytes
+code reduction:  46.74 %
+dependents:      2
+  - /node_modules/vuetify/lib/components/VOverlay/useActivator.mjs
+  - /node_modules/vuetify/lib/components/VMenu/VMenu.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VTabs/shared.mjs
+bundle space:    0 %
+rendered size:   49 Bytes
+original size:   92 Bytes
+code reduction:  46.74 %
+dependents:      2
+  - /node_modules/vuetify/lib/components/VTabs/VTab.mjs
+  - /node_modules/vuetify/lib/components/VTabs/VTabs.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VCode/index.mjs
+bundle space:    0 %
+rendered size:   47 Bytes
+original size:   174 Bytes
+code reduction:  72.99 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/index.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VKbd/index.mjs
+bundle space:    0 %
+rendered size:   45 Bytes
+original size:   171 Bytes
+code reduction:  73.68 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/index.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VSelectionControlGroup/VSelectionControlGroup.css
+bundle space:    0 %
+rendered size:   36 Bytes
+original size:   176 Bytes
+code reduction:  79.55 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VSelectionControlGroup/VSelectionControlGroup.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VColorPicker/VColorPickerSwatches.css
+bundle space:    0 %
+rendered size:   34 Bytes
+original size:   811 Bytes
+code reduction:  95.81 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VColorPicker/VColorPickerSwatches.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VColorPicker/VColorPickerPreview.css
+bundle space:    0 %
+rendered size:   33 Bytes
+original size:   2.657 KB
+code reduction:  98.76 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VColorPicker/VColorPickerPreview.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VColorPicker/VColorPickerCanvas.css
+bundle space:    0 %
+rendered size:   32 Bytes
+original size:   569 Bytes
+code reduction:  94.38 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VColorPicker/VColorPickerCanvas.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VProgressCircular/VProgressCircular.css
+bundle space:    0 %
+rendered size:   31 Bytes
+original size:   2.142 KB
+code reduction:  98.55 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VProgressCircular/VProgressCircular.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VSelectionControl/VSelectionControl.css
+bundle space:    0 %
+rendered size:   31 Bytes
+original size:   2.52 KB
+code reduction:  98.77 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VSelectionControl/VSelectionControl.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VBottomNavigation/VBottomNavigation.css
+bundle space:    0 %
+rendered size:   31 Bytes
+original size:   1.75 KB
+code reduction:  98.23 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VBottomNavigation/VBottomNavigation.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VNavigationDrawer/VNavigationDrawer.css
+bundle space:    0 %
+rendered size:   31 Bytes
+original size:   2.339 KB
+code reduction:  98.67 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VNavigationDrawer/VNavigationDrawer.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VColorPicker/VColorPickerEdit.css
+bundle space:    0 %
+rendered size:   30 Bytes
+original size:   801 Bytes
+code reduction:  96.25 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VColorPicker/VColorPickerEdit.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VProgressLinear/VProgressLinear.css
+bundle space:    0 %
+rendered size:   29 Bytes
+original size:   4.984 KB
+code reduction:  99.42 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VProgressLinear/VProgressLinear.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VExpansionPanel/VExpansionPanel.css
+bundle space:    0 %
+rendered size:   29 Bytes
+original size:   6.626 KB
+code reduction:  99.56 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VExpansionPanel/VExpansionPanels.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VLocaleProvider/VLocaleProvider.css
+bundle space:    0 %
+rendered size:   29 Bytes
+original size:   43 Bytes
+code reduction:  32.56 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VLocaleProvider/VLocaleProvider.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VThemeProvider/VThemeProvider.css
+bundle space:    0 %
+rendered size:   28 Bytes
+original size:   111 Bytes
+code reduction:  74.77 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VThemeProvider/VThemeProvider.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VAutocomplete/VAutocomplete.css
+bundle space:    0 %
+rendered size:   27 Bytes
+original size:   2.367 KB
+code reduction:  98.86 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VAutocomplete/VAutocomplete.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VBreadcrumbs/VBreadcrumbs.css
+bundle space:    0 %
+rendered size:   26 Bytes
+original size:   1.002 KB
+code reduction:  97.41 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VBreadcrumbs/VBreadcrumbs.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VColorPicker/VColorPicker.css
+bundle space:    0 %
+rendered size:   26 Bytes
+original size:   1.032 KB
+code reduction:  97.48 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VColorPicker/VColorPicker.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VSlider/VSliderThumb.css
+bundle space:    0 %
+rendered size:   26 Bytes
+original size:   3.691 KB
+code reduction:  99.3 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VSlider/VSliderThumb.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VSlider/VSliderTrack.css
+bundle space:    0 %
+rendered size:   26 Bytes
+original size:   5.946 KB
+code reduction:  99.56 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VSlider/VSliderTrack.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VResponsive/VResponsive.css
+bundle space:    0 %
+rendered size:   25 Bytes
+original size:   409 Bytes
+code reduction:  93.89 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VResponsive/VResponsive.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VLayout/VLayoutItem.css
+bundle space:    0 %
+rendered size:   25 Bytes
+original size:   141 Bytes
+code reduction:  82.27 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VLayout/VLayoutItem.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VPagination/VPagination.css
+bundle space:    0 %
+rendered size:   25 Bytes
+original size:   241 Bytes
+code reduction:  89.63 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VPagination/VPagination.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VRadioGroup/VRadioGroup.css
+bundle space:    0 %
+rendered size:   25 Bytes
+original size:   202 Bytes
+code reduction:  87.62 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VRadioGroup/VRadioGroup.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VSlideGroup/VSlideGroup.css
+bundle space:    0 %
+rendered size:   25 Bytes
+original size:   837 Bytes
+code reduction:  97.01 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VSlideGroup/VSlideGroup.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VBtnToggle/VBtnToggle.css
+bundle space:    0 %
+rendered size:   24 Bytes
+original size:   117 Bytes
+code reduction:  79.49 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VBtnToggle/VBtnToggle.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VTextField/VTextField.css
+bundle space:    0 %
+rendered size:   24 Bytes
+original size:   1.714 KB
+code reduction:  98.6 %
+dependents:      2
+  - /node_modules/vuetify/lib/components/VTextField/VTextField.mjs
+  - /node_modules/vuetify/lib/components/VTextarea/VTextarea.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VChipGroup/VChipGroup.css
+bundle space:    0 %
+rendered size:   24 Bytes
+original size:   349 Bytes
+code reduction:  93.12 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VChipGroup/VChipGroup.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VFileInput/VFileInput.css
+bundle space:    0 %
+rendered size:   24 Bytes
+original size:   443 Bytes
+code reduction:  94.58 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VFileInput/VFileInput.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VItemGroup/VItemGroup.css
+bundle space:    0 %
+rendered size:   24 Bytes
+original size:   125 Bytes
+code reduction:  80.8 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VItemGroup/VItemGroup.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VSystemBar/VSystemBar.css
+bundle space:    0 %
+rendered size:   24 Bytes
+original size:   957 Bytes
+code reduction:  97.49 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VSystemBar/VSystemBar.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VBtnGroup/VBtnGroup.css
+bundle space:    0 %
+rendered size:   23 Bytes
+original size:   1.589 KB
+code reduction:  98.55 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VBtnGroup/VBtnGroup.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VMessages/VMessages.css
+bundle space:    0 %
+rendered size:   23 Bytes
+original size:   330 Bytes
+code reduction:  93.03 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VMessages/VMessages.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VCheckbox/VCheckbox.css
+bundle space:    0 %
+rendered size:   23 Bytes
+original size:   81 Bytes
+code reduction:  71.6 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VCheckbox/VCheckbox.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VList/VListItem.css
+bundle space:    0 %
+rendered size:   23 Bytes
+original size:   9.976 KB
+code reduction:  99.77 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VList/VListItem.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VCarousel/VCarousel.css
+bundle space:    0 %
+rendered size:   23 Bytes
+original size:   1.152 KB
+code reduction:  98 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VCarousel/VCarousel.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VCombobox/VCombobox.css
+bundle space:    0 %
+rendered size:   23 Bytes
+original size:   2.423 KB
+code reduction:  99.05 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VCombobox/VCombobox.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VParallax/VParallax.css
+bundle space:    0 %
+rendered size:   23 Bytes
+original size:   121 Bytes
+code reduction:  80.99 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VParallax/VParallax.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VSnackbar/VSnackbar.css
+bundle space:    0 %
+rendered size:   23 Bytes
+original size:   3.124 KB
+code reduction:  99.26 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VSnackbar/VSnackbar.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VTextarea/VTextarea.css
+bundle space:    0 %
+rendered size:   23 Bytes
+original size:   1.338 KB
+code reduction:  98.28 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VTextarea/VTextarea.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VTimeline/VTimeline.css
+bundle space:    0 %
+rendered size:   23 Bytes
+original size:   16.808 KB
+code reduction:  99.86 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VTimeline/VTimeline.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VToolbar/VToolbar.css
+bundle space:    0 %
+rendered size:   22 Bytes
+original size:   3.075 KB
+code reduction:  99.28 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VToolbar/VToolbar.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VCounter/VCounter.css
+bundle space:    0 %
+rendered size:   22 Bytes
+original size:   157 Bytes
+code reduction:  85.99 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VCounter/VCounter.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VDivider/VDivider.css
+bundle space:    0 %
+rendered size:   22 Bytes
+original size:   676 Bytes
+code reduction:  96.75 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VDivider/VDivider.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VOverlay/VOverlay.css
+bundle space:    0 %
+rendered size:   22 Bytes
+original size:   1.042 KB
+code reduction:  97.89 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VOverlay/VOverlay.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VTooltip/VTooltip.css
+bundle space:    0 %
+rendered size:   22 Bytes
+original size:   661 Bytes
+code reduction:  96.67 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VTooltip/VTooltip.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VAppBar/VAppBar.css
+bundle space:    0 %
+rendered size:   21 Bytes
+original size:   547 Bytes
+code reduction:  96.16 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VAppBar/VAppBar.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VSelect/VSelect.css
+bundle space:    0 %
+rendered size:   21 Bytes
+original size:   1.717 KB
+code reduction:  98.78 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VSelect/VSelect.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VAvatar/VAvatar.css
+bundle space:    0 %
+rendered size:   21 Bytes
+original size:   2.561 KB
+code reduction:  99.18 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VAvatar/VAvatar.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VBanner/VBanner.css
+bundle space:    0 %
+rendered size:   21 Bytes
+original size:   4.244 KB
+code reduction:  99.51 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VBanner/VBanner.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VWindow/VWindow.css
+bundle space:    0 %
+rendered size:   21 Bytes
+original size:   2.153 KB
+code reduction:  99.02 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VWindow/VWindow.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VSlider/VSlider.css
+bundle space:    0 %
+rendered size:   21 Bytes
+original size:   1.121 KB
+code reduction:  98.13 %
+dependents:      2
+  - /node_modules/vuetify/lib/components/VSlider/VSlider.mjs
+  - /node_modules/vuetify/lib/components/VRangeSlider/VRangeSlider.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VDialog/VDialog.css
+bundle space:    0 %
+rendered size:   21 Bytes
+original size:   2.045 KB
+code reduction:  98.97 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VDialog/VDialog.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VFooter/VFooter.css
+bundle space:    0 %
+rendered size:   21 Bytes
+original size:   793 Bytes
+code reduction:  97.35 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VFooter/VFooter.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VLayout/VLayout.css
+bundle space:    0 %
+rendered size:   21 Bytes
+original size:   153 Bytes
+code reduction:  86.27 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VLayout/VLayout.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VRating/VRating.css
+bundle space:    0 %
+rendered size:   21 Bytes
+original size:   1.157 KB
+code reduction:  98.18 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VRating/VRating.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VSwitch/VSwitch.css
+bundle space:    0 %
+rendered size:   21 Bytes
+original size:   2.148 KB
+code reduction:  99.02 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VSwitch/VSwitch.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VAlert/VAlert.css
+bundle space:    0 %
+rendered size:   20 Bytes
+original size:   4.909 KB
+code reduction:  99.59 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VAlert/VAlert.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VField/VField.css
+bundle space:    0 %
+rendered size:   20 Bytes
+original size:   13.414 KB
+code reduction:  99.85 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VField/VField.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VLabel/VLabel.css
+bundle space:    0 %
+rendered size:   20 Bytes
+original size:   283 Bytes
+code reduction:  92.93 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VLabel/VLabel.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VInput/VInput.css
+bundle space:    0 %
+rendered size:   20 Bytes
+original size:   2.935 KB
+code reduction:  99.32 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VInput/VInput.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VBadge/VBadge.css
+bundle space:    0 %
+rendered size:   20 Bytes
+original size:   1.43 KB
+code reduction:  98.6 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VBadge/VBadge.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VSheet/VSheet.css
+bundle space:    0 %
+rendered size:   20 Bytes
+original size:   708 Bytes
+code reduction:  97.18 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VSheet/VSheet.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VTable/VTable.css
+bundle space:    0 %
+rendered size:   20 Bytes
+original size:   5.777 KB
+code reduction:  99.65 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VTable/VTable.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VIcon/VIcon.css
+bundle space:    0 %
+rendered size:   19 Bytes
+original size:   928 Bytes
+code reduction:  97.95 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VIcon/VIcon.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/directives/ripple/VRipple.css
+bundle space:    0 %
+rendered size:   19 Bytes
+original size:   713 Bytes
+code reduction:  97.34 %
+dependents:      1
+  - /node_modules/vuetify/lib/directives/ripple/index.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VChip/VChip.css
+bundle space:    0 %
+rendered size:   19 Bytes
+original size:   10.967 KB
+code reduction:  99.83 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VChip/VChip.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VList/VList.css
+bundle space:    0 %
+rendered size:   19 Bytes
+original size:   2.429 KB
+code reduction:  99.22 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VList/VList.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VMenu/VMenu.css
+bundle space:    0 %
+rendered size:   19 Bytes
+original size:   558 Bytes
+code reduction:  96.59 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VMenu/VMenu.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VCard/VCard.css
+bundle space:    0 %
+rendered size:   19 Bytes
+original size:   7.206 KB
+code reduction:  99.74 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VCard/VCard.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VCode/VCode.css
+bundle space:    0 %
+rendered size:   19 Bytes
+original size:   204 Bytes
+code reduction:  90.69 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VCode/index.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VMain/VMain.css
+bundle space:    0 %
+rendered size:   19 Bytes
+original size:   611 Bytes
+code reduction:  96.89 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VMain/VMain.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VTabs/VTabs.css
+bundle space:    0 %
+rendered size:   19 Bytes
+original size:   1.537 KB
+code reduction:  98.76 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VTabs/VTabs.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VApp/VApp.css
+bundle space:    0 %
+rendered size:   18 Bytes
+original size:   338 Bytes
+code reduction:  94.67 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VApp/VApp.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VImg/VImg.css
+bundle space:    0 %
+rendered size:   18 Bytes
+original size:   490 Bytes
+code reduction:  96.33 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VImg/VImg.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VBtn/VBtn.css
+bundle space:    0 %
+rendered size:   18 Bytes
+original size:   10.663 KB
+code reduction:  99.83 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VBtn/VBtn.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VKbd/VKbd.css
+bundle space:    0 %
+rendered size:   18 Bytes
+original size:   410 Bytes
+code reduction:  95.61 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VKbd/index.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VTabs/VTab.css
+bundle space:    0 %
+rendered size:   18 Bytes
+original size:   491 Bytes
+code reduction:  96.33 %
+dependents:      1
+  - /node_modules/vuetify/lib/components/VTabs/VTab.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /src/style.css
+bundle space:    0 %
+rendered size:   17 Bytes
+original size:   1.422 KB
+code reduction:  98.8 %
+dependents:      1
+  - /src/main.js
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/VGrid/VGrid.css
+bundle space:    0 %
+rendered size:   17 Bytes
+original size:   22.388 KB
+code reduction:  99.92 %
+dependents:      3
+  - /node_modules/vuetify/lib/components/VGrid/VContainer.mjs
+  - /node_modules/vuetify/lib/components/VGrid/VCol.mjs
+  - /node_modules/vuetify/lib/components/VGrid/VRow.mjs
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/styles/main.css
+bundle space:    0 %
+rendered size:   16 Bytes
+original size:   298.822 KB
+code reduction:  99.99 %
+dependents:      1
+  - /src/main.js
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/components/index.mjs
+bundle space:    0 %
+rendered size:   0 Byte
+original size:   3.531 KB
+code reduction:  100 %
+dependents:      1
+  - /src/main.js
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /node_modules/vuetify/lib/directives/index.mjs
+bundle space:    0 %
+rendered size:   0 Byte
+original size:   401 Bytes
+code reduction:  100 %
+dependents:      1
+  - /src/main.js
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /index.html
+bundle space:    0 %
+rendered size:   0 Byte
+original size:   1.03 KB
+code reduction:  100 %
+dependents:      0
+
+
