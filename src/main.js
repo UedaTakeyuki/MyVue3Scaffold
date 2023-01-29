@@ -30,4 +30,9 @@ const vuetify = createVuetify({
   components,
   directives,
 })
+/*const { createVuetify } = window.Vuetify
+const vuetify = createVuetify()*/
+
 createApp(App).use(router).use(vuetify).mount('#app')
+
+console.log("window", window)
